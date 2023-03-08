@@ -93,7 +93,7 @@ body {
 
 /* 얇은 가로선 start */
 .mainframe .crossline {
-  width: 760px;
+  width: 720px;
   border: 1px solid rgba(0, 0, 0, 0.04);
   margin-top: 10px;
   padding: 0 90px;
@@ -609,3 +609,146 @@ body {
   background-size: contain;
 }
 /* kga 기획 맛집 아래 이미지 end */
+
+/* 현업에서 인정 받는 기획자 start */
+.mainframe .reco {
+  width: 100%;
+  height: auto;
+  padding: 0 90px;
+}
+.mainframe .reco .recobox {
+}
+.mainframe .reco .recobox h3 {
+  font-size: 24px;
+  line-height: 2;
+  height: 30px;
+  color: #37352f;
+}
+
+/* 현업에서 인정 받는 기획자 end */
+
+/* 인정 받는 기획자 밑에 표1 start */
+.mainframe .recotable {
+  width: 100%;
+  height: auto;
+  padding: 0 90px;
+}
+.mainframe .recotable .recotableframe {
+  width: 100%;
+  height: 220px;
+  margin-top: 20px;
+  display: flex;
+}
+.mainframe .recotable .recotableframe .recoimg {
+  width: 48%;
+  height: 100%;
+  background-image: url("https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1504384308090-c894fdcc538d%3Fixlib%3Drb-4.0.3%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb&blockId=62925202-abcb-41e7-ae4b-91df3e1bafa9");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mainframe .recotable .recotableframe .recoemp {
+  width: 4%;
+  height: 100%;
+}
+.mainframe .recotable .recotableframe .recotxt {
+  width: 48%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.mainframe .recotable .recotableframe .recotxt .txttitle {
+  width: 100%;
+  height: 30px;
+}
+.mainframe .recotable .recotableframe .recotxt .txttitle span {
+  font-size: 22px;
+  height: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
+  line-height: 2;
+  font-weight: bold;
+}
+.mainframe .recotable .recotableframe .recotxt .txtword {
+  width: 100%;
+  height: 130px;
+  margin-top: 18px;
+}
+.mainframe .recotable .recotableframe .recotxt .txtword p {
+  display: inline;
+  font-size: 18px;
+}
+
+.mainframe .recotable .recotableframe .recotxt .txtword span {
+  background-color: #fbf3d8;
+  display: inline;
+  font-size: 18px;
+}
+.mainframe .recotable .recotableframe .recotxt .txtempbox {
+  width: 100%;
+  height: 40px;
+}
+
+/* 인정 받는 기획자 밑에 표1 end */
+
+/* 인정 받는 기획자 밑에 표2 start */
+.mainframe .recotable .recotableframe.recof2 .recoimg {
+  height: 200px;
+  background-image: url("https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1530099486328-e021101a494a%3Fixlib%3Drb-4.0.3%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb&blockId=3cfba330-9353-4c69-a903-2f9bf26944e0");
+}
+/* 인정 받는 기획자 밑에 표2 end */
+
+/* 인정 받는 기획자 밑에 표3 start */
+.mainframe .recotable .recotableframe.recof3 {
+}
+.mainframe .recotable .recotableframe.recof3 .recoimg {
+  height: 250px;
+  background-image: url("https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1579373903781-fd5c0c30c4cd%3Fixlib%3Drb-4.0.3%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb&blockId=7f8bb23c-1437-4302-84c9-8d51432d23e7");
+}
+/* 인정 받는 기획자 밑에 표3 end */
+
+/* 게임 기획 포트폴리오 start */
+.mainframe .popol {
+  width: 100%;
+  height: auto;
+  padding: 0 90px;
+}
+.mainframe .popol .popolbox {
+}
+.mainframe .popol .popolbox h3 {
+  margin: 0;
+  font-size: 24px;
+  height: 30px;
+  color: #37352f;
+}
+/* 게임 기획 포트폴리오 end */
+
+/* 포트폴리오 아래 이미지1 start */
+.mainframe .popolunder {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  padding: 0 90px;
+}
+.mainframe .popolunder .popolunderimg1 {
+  width: 100%;
+  height: 680px;
+  background-image: url("https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F9b246fd7-ab7e-45d6-8574-31f3ad5d5426%2F221207_%25EA%25B2%258C%25EC%259E%2584%25EA%25B8%25B0%25ED%259A%258D_%25EC%259A%25B0%25ED%2594%25BC_%25ED%258F%25AC%25ED%258F%25B403.jpg&blockId=7061bb70-a9be-4fca-a476-5e6cdb2512ff");
+  background-size: contain;
+}
+/* 포트폴리오 아래 이미지1 end */
+/* 포트폴리오 아래 이미지2 start */
+.mainframe .popolunder .popolunderimg2 {
+  width: 100%;
+  height: 680px;
+  background-image: url("https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F6c07f127-31c9-4d2a-b75d-39e840d48d4d%2F221207_%25EA%25B2%258C%25EC%259E%2584%25EA%25B8%25B0%25ED%259A%258D_%25EC%259A%25B0%25ED%2594%25BC_%25ED%258F%25AC%25ED%258F%25B402.jpg&blockId=32d6efcc-f18d-4fba-8496-cef916871c6d");
+  background-size: contain;
+}
+/* 포트폴리오 아래 이미지2 end */
+/* 포트폴리오 아래 이미지3 start */
+.mainframe .popolunder .popolunderimg3 {
+  width: 100%;
+  height: 680px;
+  background-image: url("https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F2731c89e-f661-4edf-8bdc-cb8c44345fe6%2F221207_%25EA%25B2%258C%25EC%259E%2584%25EA%25B8%25B0%25ED%259A%258D_%25EC%259A%25B0%25ED%2594%25BC_%25ED%258F%25AC%25ED%258F%25B401.jpg&blockId=a9f70a7d-d198-4c1e-a942-1dc1ba8184da");
+  background-size: contain;
+}
+/* 포트폴리오 아래 이미지3 end */
