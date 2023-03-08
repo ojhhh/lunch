@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
 }
@@ -38,6 +42,7 @@ body {
 
 /* 메인프레임 start */
 .mainframe {
+  position: relative;
   width: 900px;
   max-width: 900px;
   height: auto;
@@ -57,7 +62,7 @@ body {
 
 .mainframe .title h1 {
   margin: 0;
-  height: 50px;
+  height: 55px;
   max-width: 100%;
   font-size: 45px;
   font-weight: 700;
@@ -90,6 +95,7 @@ body {
 .mainframe .crossline {
   width: 100%;
   border: 1px solid rgba(0, 0, 0, 0.04);
+  margin-top: 10px;
 }
 /* 얇은 가로선 end */
 
@@ -154,16 +160,16 @@ body {
 .mainframe .txtbox .txt_body .txt_word {
   width: 100%;
   height: 120px;
-  padding: 0 14px;
+  padding: 10px 14px 0 14px;
 }
 
 .mainframe .txtbox .txt_body .txt_word p {
   margin: 0;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
 }
 .mainframe .txtbox .txt_body .txt_word span {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   display: inline;
   background-color: #fbf3d8;
@@ -248,9 +254,10 @@ body {
 /* 교육 과정 안내 start */
 .mainframe .edubox {
   width: 100%;
-  height: 100px;
+  height: auto;
   display: flex;
   flex-direction: column;
+  padding: 0 90px;
 }
 .mainframe .edutitle {
 }
@@ -261,4 +268,208 @@ body {
   height: 30px;
 }
 
+.mainframe .edubox .eduboxin1 {
+  width: 100%;
+  height: 130px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 10px;
+}
+
+.mainframe .edubox .eduboxin1 .eduboxframe {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.mainframe .edubox .eduboxin1 .eduboxframe .edubox_lt {
+  width: 30px;
+  height: 100%;
+}
+.mainframe .edubox .eduboxin1 .eduboxframe .edubox_lt .edubox_lt_img {
+  width: 24px;
+  height: 28px;
+  background: url("https://cdn.lazyrockets.com/_next/static/images/emoji-cd0caf391218ef7e695cd8315d235038.png");
+  background-position-x: 79.66101694915254%;
+  background-position-y: 88.13559322033898%;
+  background-repeat: no-repeat;
+  background-size: 6000% 6000%;
+}
+
+.mainframe .edubox .eduboxin1 .eduboxframe .edubox_lt .edubox_lt_img img {
+}
+
+.mainframe .edubox .eduboxin1 .eduboxframe .edubox_rt {
+  width: 100%;
+  height: 100%;
+}
+.mainframe .edubox .eduboxin1 .eduboxframe .edubox_rt span {
+  color: #37352f;
+  font-weight: 800;
+  line-height: 2;
+}
+.mainframe .edubox .eduboxin1 .eduboxframe .edubox_rt p {
+  margin: 0;
+  font-weight: 400;
+  line-height: 20px;
+}
+.mainframe .edubox .eduboxin1 .eduboxframe .edubox_rt p:nth-child(3) {
+  font-weight: 200;
+}
 /* 교육 과정 안내 end */
+
+/* 교육 기간 start */
+.mainframe .edubox .eduboxin2 {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 10px;
+}
+
+.mainframe .edubox .eduboxin2 .eduboxframe {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.mainframe .edubox .eduboxin2 .eduboxframe .edubox_lt {
+  width: 30px;
+  height: 100%;
+}
+.mainframe .edubox .eduboxin2 .eduboxframe .edubox_lt .edubox_lt_img {
+  width: 24px;
+  height: 28px;
+  background-image: url("https://cdn.lazyrockets.com/_next/static/images/emoji-cd0caf391218ef7e695cd8315d235038.png");
+  background-position-x: 54.23728813559322%;
+  background-position-y: 62.71186440677966%;
+  background-repeat: no-repeat;
+  background-size: 6000% 6000%;
+}
+
+.mainframe .edubox .eduboxin2 .eduboxframe .edubox_lt .edubox_lt_img img {
+}
+
+.mainframe .edubox .eduboxin2 .eduboxframe .edubox_rt {
+  width: 100%;
+  height: 100%;
+}
+.mainframe .edubox .eduboxin2 .eduboxframe .edubox_rt span {
+  color: #37352f;
+  font-weight: 800;
+  line-height: 2;
+}
+.mainframe .edubox .eduboxin2 .eduboxframe .edubox_rt p {
+  margin: 0;
+  font-weight: 400;
+  line-height: 20px;
+}
+/* 교육 기간 end */
+
+/* 수강료 전액 국비 지원 start */
+.mainframe .edubox .eduboxin3 {
+  width: 100%;
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px 16px;
+  margin-bottom: 10px;
+}
+
+.mainframe .edubox .eduboxin3 .eduboxframe {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.mainframe .edubox .eduboxin3 .eduboxframe .edubox_lt {
+  width: 30px;
+  height: 100%;
+}
+.mainframe .edubox .eduboxin3 .eduboxframe .edubox_lt .edubox_lt_img {
+  width: 24px;
+  height: 28px;
+  background: url("https://cdn.lazyrockets.com/_next/static/images/emoji-cd0caf391218ef7e695cd8315d235038.png");
+  background-position-x: 47.45762711864407%;
+  background-position-y: 25.423728813559322%;
+  background-repeat: no-repeat;
+  background-size: 6000% 6000%;
+}
+
+.mainframe .edubox .eduboxin3 .eduboxframe .edubox_lt .edubox_lt_img img {
+}
+
+.mainframe .edubox .eduboxin3 .eduboxframe .edubox_rt {
+  width: 100%;
+  height: 100%;
+}
+.mainframe .edubox .eduboxin3 .eduboxframe .edubox_rt span {
+  color: #37352f;
+  font-weight: 800;
+  line-height: 2;
+  display: inline-block;
+}
+.mainframe .edubox .eduboxin3 .eduboxframe .edubox_rt span:first-child {
+  display: block;
+}
+.mainframe .edubox .eduboxin3 .eduboxframe .edubox_rt span:nth-child(2) {
+  color: red;
+  text-decoration: line-through;
+}
+.mainframe .edubox .eduboxin3 .eduboxframe .edubox_rt span:last-child {
+}
+.mainframe .edubox .eduboxin3 .eduboxframe .edubox_rt p {
+  margin: 0;
+  font-weight: 400;
+  line-height: 20px;
+  display: inline-block;
+}
+/* 수강료 전액 국비 지원 end */
+
+/* mainimg2 start */
+.mainimg2 {
+  width: 100vw;
+  height: 320px;
+  border: 1px solid;
+}
+
+.mainimg2 .mimg2 {
+  width: 100%;
+  height: 320px;
+  background-image: url(https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1529119368496-2dfda6ec2804%3Fixlib%3Drb-4.0.3%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb&blockId=9fa7ef40-5a6c-4d33-9b18-cc8370aa5acb);
+  background-size: cover;
+  background-position-y: center;
+}
+/* mainimg2 end */
+
+/* 경일의 교육 철학 start */
+
+.mainframe .kgatitle {
+  width: 100%;
+  height: 100px;
+  padding: 0 90px;
+}
+.mainframe .kgatitle .kgatitlebox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+.mainframe .kgatitle .kgatitlebox .kgattimg {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+
+  background-repeat: no-repeat;
+  background-image: url("	https://cdn.lazyrockets.com/_next/static/images/emoji-cd0caf391218ef7e695cd8315d235038.png");
+  background-position-x: 49.152542372881356%;
+  background-position-y: 22.033898305084744%;
+  -webkit-background-size: 6000% 6000%;
+  background-size: 6000% 6000%;
+}
+.mainframe .kgatitle .kgatitlebox h1 {
+  padding-left: 10px;
+  line-height: 0.8;
+  margin: 0;
+}
+
+/* 경일의 교육 철학 end */
