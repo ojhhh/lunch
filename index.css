@@ -223,7 +223,7 @@ body {
 
 
 .main_page_content_area {
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(230, 230, 230, 0.2);
 
     width: 716px;
     height: 5000px;
@@ -254,7 +254,7 @@ body {
 }
 
 .main_page_item01_content {
-    background-color: lightsalmon;
+    /* background-color: lightsalmon; */
     width: 708px;
     height: 124px;
     padding: 5px;
@@ -271,33 +271,57 @@ body {
 
 
 
-/* -- [start] -- ⭐⭐⭐ heading 2 , h2 공통 css 로 class 이름 공통으로 주기 */
+/* -- [start] -- ⭐⭐⭐ heading 2~3 공통 css 로 class 이름 공통으로 주기 */
 .main_page_content_h2 {
     
     /* ✅ head2, h2 공통 css */
     position: absolute;
     left: 9px;
-
 }
+
+
+.main_page_content_h3 {
+    
+    /* ✅ head2, h2 공통 css */
+    position: absolute;
+    left: 9px;
+    top: 8px;
+    /* top: 12px; */
+    
+    /* background-color: yellow; */
+    /* height: 40px; */
+}
+
 
 .main_page_content_h2_background {
     /* ✅ head2, h2 공통 css */
     background-color: antiquewhite;
     width: 700px;
-    height: 124px;
+    height: 100px;
     
 }
+
+
+.main_page_content_h3_background {
+    /* ✅ head2, h2 공통 css */
+    background-color: rgba(45, 184, 219, 0.1);
+    width: 700px;
+    height: 30px;
+    
+}
+
+
 /* -- [END] 공통으로, heading 2 관련된 것 end -- */
 
 
 
 /* -- [start] ✅ 개별 아이템 / item02 -- */
 .main_page_item02_container {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     
     /* container width 는 고정✅✅ */
     width: 708px;
-    height: 124px;
+    /* height: 66px; */
 
     /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
     display: flex;
@@ -307,15 +331,90 @@ body {
 }
 
 .main_page_item02_content {
-    background-color: lightsalmon;
+    /* background-color: red; */
     width: 708px;
-    height: 124px;
+    height: 50px;
     padding: 5px;
+
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    display: flex;
+    align-items: flex-end;
+
+    /* h2 자체가 치우쳐 있어서 이동 해야함. */
+    position: relative;
+}
+/* -- [END] item 개별적으로 적용해야 하는 것 여기까지 -- */
+
+
+/* START 개별 아이템 item03 , 구분선 ⭐⭐⭐  */
+
+.main_page_division_line {
+    width: 700px;
+    height: 1px;
+    border-top: solid 1px #bbb ;
+    /* border-top: solid 100px red ; */
+    /* background-color: blue; */
+}
+
+
+
+/* -- [start] ✅ 개별 아이템 / item04 -- */
+.main_page_item04_container {
+    /* background-color: aquamarine; */
+    
+    /* container width 는 고정✅✅ */
+    width: 708px;
+    /* height: 66px; */
 
     /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
     display: flex;
     align-items: center;
     justify-content: center;
+
+}
+
+.main_page_item04_content {
+    /* background-color: red; */
+    width: 708px;
+    height: 50px;
+    padding: 5px;
+
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    display: flex;
+    align-items: flex-end;
+
+    /* h2 자체가 치우쳐 있어서 이동 해야함. */
+    position: relative;
+}
+/* -- [END] item 개별적으로 적용해야 하는 것 여기까지 -- */
+
+
+
+/* -- [start] ✅ 개별 아이템 / item05 -- */
+.main_page_item05_container {
+    /* background-color: aquamarine; */
+    
+    /* container width 는 고정✅✅ */
+    width: 708px;
+    /* height: 66px; */
+
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main_page_item05_content {
+    /* background-color: red; */
+    width: 708px;
+    height: 350px;
+    padding: 5px;
+
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
 
     /* h2 자체가 치우쳐 있어서 이동 해야함. */
     position: relative;
@@ -325,15 +424,222 @@ body {
 
 
 
+/* ✅ 이미지를 딱 맞게 넣기 / image_input */
+.main_page_content_image_frame {
+    width: 700px;
+    height: 352px;
+    /* border: 1px solid black; */
+    
+}
+
+/* ✅ 이미지 딱 맞게 하려면, 우선, 이미지 size 먼저! 체크 ⭐⭐⭐  */
+.image_item01 {
+
+    /* 여기⭐⭐ */
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 밑에 설명, 각주, describe, 회색 글 */
+.main_page_content_describe {
+    color: gray;
+    font-size: 12px;
+}
 
 
 
 
+/* -- [start] ✅ 개별 아이템 / item06 -- */
+.main_page_item06_container {
+    /* background-color: aquamarine; */
+    
+    /* container width 는 고정✅✅ */
+    width: 708px;
+    /* height: 66px; */
+
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main_page_item06_content {
+    /* background-color: red; */
+    width: 708px;
+    height: 50px;
+    padding: 5px;
+
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    display: flex;
+    align-items: flex-end;
+
+    /* h2 자체가 치우쳐 있어서 이동 해야함. */
+    position: relative;
+
+    /* 윗 부분 마진 */
+    margin-top: 20px;
+
+}
+/* -- [END] item 개별적으로 적용해야 하는 것 여기까지 -- */
+
+
+
+/* ✅ 이미지를 딱 맞게 넣기 / image_input */
+.main_page_content_image_frame_02 {
+    width: 700px;
+    height: 430px;
+    /* border: 1px solid black; */
+    
+}
+
+.image_item02 {
+    /* 여기⭐⭐ */
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+}
 
 
 
 
+/* -- [start] ✅ 개별 아이템 / item06 -- */
+.main_page_item08_container {
+    /* background-color: aquamarine; */
+    
+    /* container width 는 고정✅✅ */
+    width: 708px;
+    /* height: 66px; */
 
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main_page_item08_content {
+    /* background-color: red; */
+    width: 708px;
+    height: 50px;
+    padding: 5px;
+
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    display: flex;
+    align-items: flex-end;
+
+    /* h2 자체가 치우쳐 있어서 이동 해야함. */
+    position: relative;
+
+    /* 윗 부분 마진 */
+    margin-top: 20px;
+
+}
+
+
+/* ✅ 이미지를 딱 맞게 넣기 / image_input */
+.main_page_content_image_frame_03 {
+    width: 700px;
+    height: 464px;
+    /* border: 1px solid black; */
+    
+}
+
+
+
+
+/* -- [start] ✅ 개별 아이템 / item06 
+                ⭐ 이거를 이제, 글자만 바꾸자 ⭐⭐⭐⭐⭐ -- */
+.main_page_item12_container {
+    /* background-color: aquamarine; */
+    
+    /* container width 는 고정✅✅ */
+    width: 708px;
+    /* height: 66px; */
+
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main_page_item12_content {
+    /* background-color: red; */
+    width: 708px;
+    height: 50px;
+    padding: 5px;
+
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    display: flex;
+    align-items: flex-end;
+
+    /* h2 자체가 치우쳐 있어서 이동 해야함. */
+    position: relative;
+
+    /* 윗 부분 마진 */
+    margin-top: 20px;
+
+}
+
+
+
+/* ✅ 이미지를 딱 맞게 넣기 / image_input */
+.main_page_content_image_frame_04 {
+    width: 512px;
+    height: 552px;
+    /* border: 1px solid black; */
+    
+}
+
+
+
+/* -- [start] ✅ 개별 아이템 / item06 
+                ⭐ 이거를 이제, 글자만 바꾸자 ⭐⭐⭐⭐⭐ -- */
+.main_page_item14_container {
+    /* background-color: aquamarine; */
+    
+    /* container width 는 고정✅✅ */
+    width: 708px;
+    /* height: 66px; */
+
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main_page_item14_content {
+    /* background-color: red; */
+    width: 708px;
+    height: 50px;
+    padding: 5px;
+
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    display: flex;
+    align-items: flex-end;
+
+    /* h2 자체가 치우쳐 있어서 이동 해야함. */
+    position: relative;
+
+    /* 윗 부분 마진 */
+    margin-top: 20px;
+
+}
+
+
+
+/* ✅ 이미지를 딱 맞게 넣기 / image_input */
+.main_page_content_image_frame_05 {
+    width: 600px;
+    height: 336px;
+    /* border: 1px solid black; */
+    
+}
 
 
 
