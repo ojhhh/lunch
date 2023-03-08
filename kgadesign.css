@@ -81,7 +81,7 @@ body {
 .mainframe .reviewimg .rimg {
   position: relative;
   background-size: contain;
-  padding: 0 90px;
+  padding: 0 100px;
 }
 
 .mainframe .reviewimg .rimg img {
@@ -96,7 +96,7 @@ body {
   width: 720px;
   border: 1px solid rgba(0, 0, 0, 0.04);
   margin-top: 10px;
-  padding: 0 90px;
+  padding: 0 100px;
 }
 /* 얇은 가로선 end */
 
@@ -123,13 +123,13 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
-  padding: 0 90px;
+  padding: 0 100px;
 }
 
 .mainframe .noteboximg .nbimg {
   position: relative;
   background-size: contain;
-  padding: 0 90px;
+  padding: 0 100px;
 }
 
 .mainframe .noteboximg .nbimg img {
@@ -145,7 +145,7 @@ body {
 .mainframe .txtbox {
   width: 100%;
   height: auto;
-  padding: 0 90px;
+  padding: 0 100px;
 }
 
 .mainframe .txtbox .txt_title {
@@ -241,12 +241,12 @@ body {
 }
 .mainframe .txtbox .txtbottom .txtbtm_rt .txtbtm_rt_dn p {
   margin: 0;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   display: inline;
 }
 .mainframe .txtbox .txtbottom .txtbtm_rt .txtbtm_rt_dn span {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   display: inline;
   background-color: #fbf3d8;
@@ -265,7 +265,7 @@ body {
   height: auto;
   display: flex;
   flex-direction: column;
-  padding: 0 90px;
+  padding: 0 100px;
 }
 .mainframe .edutitle {
 }
@@ -454,7 +454,7 @@ body {
 .mainframe .kgatitle {
   width: 100%;
   height: 100px;
-  padding: 0 90px;
+  padding: 0 100px;
 }
 .mainframe .kgatitle .kgatitlebox {
   width: 100%;
@@ -493,7 +493,7 @@ body {
   width: 100%;
   height: auto;
   margin-top: 10px;
-  padding: 0 90px;
+  padding: 0 100px;
 }
 .mainframe .fastedu .fasteduimg {
   width: 100%;
@@ -526,7 +526,7 @@ body {
   width: 100%;
   height: auto;
   margin-top: 10px;
-  padding: 0 90px;
+  padding: 0 100px;
 }
 .mainframe .exunder .exunderimg {
   width: 100%;
@@ -551,7 +551,7 @@ body {
   width: 100%;
   height: auto;
   margin-top: 10px;
-  padding: 0 90px;
+  padding: 0 100px;
 }
 .mainframe .beliunder .beliunderimg {
   width: 100%;
@@ -581,7 +581,7 @@ body {
 .mainframe .kgafood {
   width: 100%;
   height: auto;
-  padding: 0 90px;
+  padding: 0 100px;
 }
 .mainframe .kgafood .kgafoodbox {
 }
@@ -600,11 +600,11 @@ body {
   width: 100%;
   height: auto;
   margin-top: 10px;
-  padding: 0 90px;
+  padding: 0 100px;
 }
 .mainframe .foodunder .foodunderimg {
   width: 100%;
-  height: 820px;
+  height: 815px;
   background-image: url("https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F8a6baa2d-817f-4954-a33c-3f9855c4a047%2F221207_%25EA%25B2%258C%25EC%259E%2584%25EA%25B8%25B0%25ED%259A%258D_%25EC%259A%25B0%25ED%2594%25BC_%25EC%25BB%25A4%25EB%25A6%25AC%25ED%2581%2598%25EB%259F%25BC.jpg&blockId=3b744ab4-3f91-4b21-86de-8b2750f82a0c");
   background-size: contain;
 }
@@ -614,7 +614,7 @@ body {
 .mainframe .reco {
   width: 100%;
   height: auto;
-  padding: 0 90px;
+  padding: 0 100px;
 }
 .mainframe .reco .recobox {
 }
@@ -631,7 +631,7 @@ body {
 .mainframe .recotable {
   width: 100%;
   height: auto;
-  padding: 0 90px;
+  padding: 0 100px;
 }
 .mainframe .recotable .recotableframe {
   width: 100%;
@@ -710,7 +710,7 @@ body {
 .mainframe .popol {
   width: 100%;
   height: auto;
-  padding: 0 90px;
+  padding: 0 100px;
 }
 .mainframe .popol .popolbox {
 }
@@ -727,7 +727,7 @@ body {
   width: 100%;
   height: auto;
   margin-top: 20px;
-  padding: 0 90px;
+  padding: 0 100px;
 }
 .mainframe .popolunder .popolunderimg1 {
   width: 100%;
@@ -752,3 +752,77 @@ body {
   background-size: contain;
 }
 /* 포트폴리오 아래 이미지3 end */
+
+/* 자주 묻는 질문 title start */
+.mainframe .questions {
+  width: 100%;
+  height: auto;
+  padding: 0 100px;
+}
+.mainframe .questions .questionsbox {
+}
+.mainframe .questions .questionsbox h3 {
+  font-size: 24px;
+  line-height: 2;
+  height: 30px;
+  color: #37352f;
+}
+/* 자주 묻는 질문 title end */
+
+/* 자주 묻는 질문 word start */
+.mainframe .qusbox {
+  width: 100%;
+  height: auto;
+  padding: 0 100px;
+}
+.mainframe .qusbox .qusboxframe {
+  display: flex;
+}
+.mainframe .qusbox .qusboxframe .qusbox_lt {
+  width: 30px;
+  height: 30px;
+}
+.mainframe .qusbox .qusboxframe .qusbox_lt .qusbox_lt_arrow {
+  cursor: pointer;
+  width: 24px;
+  height: 28px;
+  border-radius: 5px;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/254/254434.png");
+  background-size: 12px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mainframe .qusbox .qusboxframe .qusbox_lt .qusbox_lt_arrow:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: 1s ease;
+  width: 24px;
+  height: 28px;
+  border-radius: 5px;
+}
+.mainframe .qusbox .qusboxframe .qusbox_rt {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.mainframe .qusbox .qusboxframe .qusbox_rt .qusbox_rt_up {
+  display: flex;
+  align-items: center;
+}
+.mainframe .qusbox .qusboxframe .qusbox_rt .qusbox_rt_up p {
+  margin: 5px;
+}
+.mainframe .qusbox .qusboxframe .qusbox_rt .qusbox_rt_dn p {
+  margin: 5px;
+}
+
+.mainframe .qusboxframe.qbf4 .qusbox_rt_dn p {
+  display: inline;
+}
+.mainframe .qusboxframe.qbf4 .qusbox_rt_dn a {
+  color: #37352f;
+  display: inline;
+}
+
+/* 자주 묻는 질문 word end */
