@@ -1,0 +1,357 @@
+
+/* 이게 삭제되어야 하는거 아닌가 ? */
+/* .main_page_frame {
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+} */
+
+body {
+    position: relative;
+}
+
+
+.page_header_frame {
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+
+    background-color: gray;
+    
+    display: flex;
+    align-items: center;
+}
+
+.wrap_topbar_contents {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    box-sizing: border-box;
+    width: 100%;
+    height: 45px;
+
+    background-color: lightcyan;
+    
+}
+
+.container_topbar_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 280px;
+    height: 24px;
+
+    background-color: yellow;
+}
+
+
+.topbar_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    box-sizing: border-box;
+    background-color: lightsalmon;
+
+    width: 278px;
+    height: 20px;
+    font-size: 16px;
+
+}
+
+.wrap_tobar_search_duplicate {
+    background-color: red;
+    width: 120px;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+.container_topbar_search_button {
+    background-color: blue;
+    box-sizing: border-box;
+    width: 70px;
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container_topbar_duplicate_button {
+    background-color: yellow;
+    box-sizing: border-box;
+    width: 46px;
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topbar_search_button {
+    box-sizing: border-box;
+    background-color: lightseagreen;
+
+    width: 64px;
+    height: 28px;
+    font-size: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.topbar_duplicate_button {
+    background-color: rgb(105, 29, 228);
+
+    width: 44px;
+    height: 28px;
+    
+    font-size: 16px;
+
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* ✅✅ 박스 사이징 */
+    box-sizing: border-box;
+}
+
+
+
+/* 가운데 페이지  */
+.main_page_whole_frame {
+    /* background-color: rgb(47, 0, 255, 0.5); */
+    border: 3px solid black;
+    width: 100%;
+    height: 7000px;
+
+    position : absolute;
+    top: 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.main_page_title_frame {
+    box-sizing: border-box;
+    /* background-color: rgb(8, 109, 8, 0.2); */
+
+    width: 100%;
+    height: 312px;
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.inner_main_page_title_frame {
+    box-sizing: border-box;
+    background-color: red;
+
+    width: 716px;
+    height: 100%;
+
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+.center_main_icon_container {
+    display: flex;
+    align-items: flex-end;
+
+    box-sizing: border-box;
+    /* background-color: lightblue; */
+
+    width: 708px;
+    height: 162px;
+}
+
+.center_main_icon_image{
+    display: flex;
+
+    font-size: 78px;
+}
+
+
+
+
+.center_main_empty_area {
+    box-sizing: border-box;
+    background-color: blue;
+
+    width: 708px;
+    height: 10px;
+
+}
+
+
+.center_main_title_container {
+    box-sizing: border-box;
+    background-color: lightgreen;
+
+    width: 708px;
+    height: 126px;
+
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 20px;
+    padding : 5px;
+
+}
+
+
+.main_page_content_area {
+    background-color: rgb(230, 230, 230);
+
+    width: 716px;
+    height: 5000px;
+   
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+
+/* -- [start] ✅ 1st 아이템 / item01 -- */
+.main_page_item01_container {
+    background-color: aquamarine;
+    
+    /* container width 는 고정✅✅ */
+    width: 708px;
+    height: 124px;
+
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main_page_item01_content {
+    background-color: lightsalmon;
+    width: 708px;
+    height: 124px;
+    padding: 5px;
+
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* h2 자체가 치우쳐 있어서 이동 해야함. */
+    position: relative;
+}
+/* -- [END] item 개별적으로 적용해야 하는 것 여기까지 -- */
+
+
+
+/* -- [start] -- ⭐⭐⭐ heading 2 , h2 공통 css 로 class 이름 공통으로 주기 */
+.main_page_content_h2 {
+    
+    /* ✅ head2, h2 공통 css */
+    position: absolute;
+    left: 9px;
+
+}
+
+.main_page_content_h2_background {
+    /* ✅ head2, h2 공통 css */
+    background-color: antiquewhite;
+    width: 700px;
+    height: 124px;
+    
+}
+/* -- [END] 공통으로, heading 2 관련된 것 end -- */
+
+
+
+/* -- [start] ✅ 개별 아이템 / item02 -- */
+.main_page_item02_container {
+    background-color: aquamarine;
+    
+    /* container width 는 고정✅✅ */
+    width: 708px;
+    height: 124px;
+
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main_page_item02_content {
+    background-color: lightsalmon;
+    width: 708px;
+    height: 124px;
+    padding: 5px;
+
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* h2 자체가 치우쳐 있어서 이동 해야함. */
+    position: relative;
+}
+/* -- [END] item 개별적으로 적용해야 하는 것 여기까지 -- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ✅ 공통 부분 
+
+[container] 
+
+
+[content] 
+- content 는 padding 5px 주기 ('문과생들이여, 메타버스 기획자로 미래의 문을 두드려라!' 여기부터시작
+- 글씨 자체가 왼쪽으로 치우져 있어서 position relative 이동 해야 함. 
+
+[글씨 / h2 / heading 2 , h2 공통 css 로 class 이름 공통으로 주기] 
+- 살짝 옆으로 이동해야 해서 position absolute 
+
+[h2 background] 
+- 포인트 : 살짝, 가운데 정렬로 주기 위해서, 이 위치를 이동시킴. 
+
+*/
