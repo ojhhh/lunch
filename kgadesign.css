@@ -93,9 +93,10 @@ body {
 
 /* 얇은 가로선 start */
 .mainframe .crossline {
-  width: 100%;
+  width: 760px;
   border: 1px solid rgba(0, 0, 0, 0.04);
   margin-top: 10px;
+  padding: 0 90px;
 }
 /* 얇은 가로선 end */
 
@@ -108,6 +109,12 @@ body {
 }
 .mainframe .cutbox30 {
   height: 30px;
+}
+.mainframe .cutbox60 {
+  height: 60px;
+}
+.mainframe .cutbox90 {
+  height: 90px;
 }
 /* 중간 박스 end */
 
@@ -160,7 +167,8 @@ body {
 .mainframe .txtbox .txt_body .txt_word {
   width: 100%;
   height: 120px;
-  padding: 10px 14px 0 14px;
+  padding: 4px 14px 0 14px;
+  line-height: 1.2;
 }
 
 .mainframe .txtbox .txt_body .txt_word p {
@@ -473,3 +481,131 @@ body {
 }
 
 /* 경일의 교육 철학 end */
+
+/* 빠르게 보다 제대로 교육합니다 start */
+.mainframe .txtbox.txtboxkga .line {
+  height: 140px;
+}
+/* 빠르게 보다 제대로 교육합니다 end */
+
+/* 제대로 교육 아래 이미지 start */
+.mainframe .fastedu {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  padding: 0 90px;
+}
+.mainframe .fastedu .fasteduimg {
+  width: 100%;
+  height: 472px;
+  background-image: url("https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1517245386807-bb43f82c33c4%3Fixlib%3Drb-4.0.3%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb&blockId=b05a7412-9661-440a-bf32-03f2d30b23ac");
+  background-size: contain;
+}
+/* 제대로 교육 아래 이미지 end */
+
+/* 기하급수적 성장, 오프라인 교육. start */
+.mainframe .txtbox.txtboxex {
+}
+.mainframe .txtbox.txtboxex .line {
+  height: 140px;
+}
+.mainframe .txtbox.txtboxex .txt_word p {
+  display: inline;
+}
+.mainframe .txtbox.txtboxex .txt_word span {
+  background-color: white;
+}
+.mainframe .txtbox.txtboxex .txt_word span:last-child {
+  background-color: #fbf3d8;
+}
+
+/* 기하급수적 성장, 오프라인 교육. end */
+
+/* 기하급수 성장 아래 이미지 start */
+.mainframe .exunder {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  padding: 0 90px;
+}
+.mainframe .exunder .exunderimg {
+  width: 100%;
+  height: 472px;
+  background-image: url("https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1565689157206-0fddef7589a2%3Fixlib%3Drb-4.0.3%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb&blockId=86f0d5f5-ad62-44ab-a17f-4aef3c3fb2de");
+  background-size: contain;
+}
+/* 기하급수 성장 아래 이미지 end */
+
+/* 믿음과 신념 start */
+.mainframe .txtbox.txtboxbeli {
+}
+.mainframe .txtbox.txtboxbeli .txt_body .line {
+  height: 200px;
+}
+.mainframe .txtbox.txtboxbeli .txt_word span {
+}
+/* 믿음과 신념 end */
+
+/* 믿음과 신념 아래 이미지 start */
+.mainframe .beliunder {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  padding: 0 90px;
+}
+.mainframe .beliunder .beliunderimg {
+  width: 100%;
+  height: 472px;
+  background-image: url("https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1581474859688-82ea214f852c%3Fixlib%3Drb-4.0.3%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb&blockId=26e1a173-d38f-4ac7-b993-6f36aa46f329");
+  background-size: contain;
+}
+/* 믿음과 신념 아래 이미지 end */
+
+/* mainimg3 start */
+.mainimg3 {
+  width: 100vw;
+  height: 320px;
+  border: 1px solid;
+}
+
+.mainimg3 .mimg3 {
+  width: 100%;
+  height: 320px;
+  background-image: url("https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1527219525722-f9767a7f2884%3Fixlib%3Drb-4.0.3%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb&blockId=73b6e801-bc68-4de7-a9b2-2971bc6efb4e");
+  background-size: cover;
+  background-position-y: center;
+}
+/* mainimg3 end */
+
+/* kga가 기획 맛집인 이유 start */
+.mainframe .kgafood {
+  width: 100%;
+  height: auto;
+  padding: 0 90px;
+}
+.mainframe .kgafood .kgafoodbox {
+}
+.mainframe .kgafood .kgafoodbox h3 {
+  font-size: 24px;
+  line-height: 2;
+  height: 30px;
+  line-height: 1.2;
+  color: #37352f;
+}
+
+/* kga가 기획 맛집인 이유 end */
+
+/* kga 기획 맛집 아래 이미지 start */
+.mainframe .foodunder {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  padding: 0 90px;
+}
+.mainframe .foodunder .foodunderimg {
+  width: 100%;
+  height: 820px;
+  background-image: url("https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F8a6baa2d-817f-4954-a33c-3f9855c4a047%2F221207_%25EA%25B2%258C%25EC%259E%2584%25EA%25B8%25B0%25ED%259A%258D_%25EC%259A%25B0%25ED%2594%25BC_%25EC%25BB%25A4%25EB%25A6%25AC%25ED%2581%2598%25EB%259F%25BC.jpg&blockId=3b744ab4-3f91-4b21-86de-8b2750f82a0c");
+  background-size: contain;
+}
+/* kga 기획 맛집 아래 이미지 end */
