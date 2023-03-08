@@ -10,6 +10,7 @@ body {
   height: 45px;
   position: fixed;
   background-color: white;
+  z-index: 1;
 }
 
 .navbar .navtxt {
@@ -20,6 +21,7 @@ body {
   align-items: center;
 }
 
+/* 메인 이미지 start */
 .mainimg {
   width: 100%;
   height: 290px;
@@ -32,7 +34,9 @@ body {
   background-image: url("https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fcf240f1f-f05c-456f-947a-4d4cbe70bd91%2F%25EC%25BB%25A4%25EB%25B2%2584_(1).jpg&blockId=694dcd71-9995-4f26-b1cd-5604d2c3af6a&width=3600");
   background-size: cover;
 }
+/* 메인 이미지 end */
 
+/* 메인프레임 start */
 .mainframe {
   width: 900px;
   max-width: 900px;
@@ -53,13 +57,16 @@ body {
 
 .mainframe .title h1 {
   margin: 0;
+  height: 50px;
   max-width: 100%;
   font-size: 45px;
   font-weight: 700;
   padding: 3px 2px;
   line-height: 1.5;
 }
+/* 메인프레임 end */
 
+/* 후기 이미지 start */
 .mainframe .reviewimg {
   position: relative;
   width: 100%;
@@ -77,12 +84,16 @@ body {
   height: 100%;
   background-size: contain;
 }
+/* 후기 이미지 end */
 
+/* 얇은 가로선 start */
 .mainframe .crossline {
   width: 100%;
   border: 1px solid rgba(0, 0, 0, 0.04);
 }
+/* 얇은 가로선 end */
 
+/* 중간 박스 start */
 .mainframe .cutbox {
   width: 100%;
 }
@@ -92,7 +103,9 @@ body {
 .mainframe .cutbox30 {
   height: 30px;
 }
+/* 중간 박스 end */
 
+/* 노트북 이미지 start */
 .mainframe .noteboximg {
   position: relative;
   width: 100%;
@@ -111,3 +124,141 @@ body {
   height: 100%;
   background-size: contain;
 }
+/* 노트북 이미지 end */
+
+/* 경일아카데미 게임 기혹자 과정 start */
+/* 게임 기획자의 꿈, 5개월만에 이뤄드립니다. start */
+
+.mainframe .txtbox {
+  width: 100%;
+  height: auto;
+  padding: 0 90px;
+}
+
+.mainframe .txtbox .txt_title {
+}
+.mainframe .txtbox .txt_title h3 {
+  font-size: 24px;
+  line-height: 2;
+  height: 30px;
+}
+
+.mainframe .txtbox .txt_body {
+  display: flex;
+}
+
+.mainframe .txtbox .txt_body .line {
+  height: 120px;
+  border: 1.5px solid rgba(0, 0, 0, 0.5);
+}
+.mainframe .txtbox .txt_body .txt_word {
+  width: 100%;
+  height: 120px;
+  padding: 0 14px;
+}
+
+.mainframe .txtbox .txt_body .txt_word p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+.mainframe .txtbox .txt_body .txt_word span {
+  font-size: 20px;
+  font-weight: 600;
+  display: inline;
+  background-color: #fbf3d8;
+}
+
+.mainframe .txtbox .txt_body .txt_word p:last-child {
+  display: inline;
+}
+
+.mainframe .txtbox .txtbottom {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  display: flex;
+}
+
+.mainframe .txtbox .txtbottom .txtbtm_lt {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainframe .txtbox .txtbottom .txtbtm_lt .arrow {
+  cursor: pointer;
+  width: 24px;
+  height: 28px;
+  border-radius: 5px;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/254/254434.png");
+  background-size: 12px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.mainframe .txtbox .txtbottom .txtbtm_lt .arrow:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: 1s ease;
+  width: 24px;
+  height: 28px;
+  border-radius: 5px;
+}
+.mainframe .txtbox .txtbottom .txtbtm_rt {
+}
+.mainframe .txtbox .txtbottom .txtbtm_rt .txtbtm_rt_up {
+  width: 100%;
+  height: 40px;
+}
+.mainframe .txtbox .txtbottom .txtbtm_rt .txtbtm_rt_up p {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.4);
+  line-height: 2;
+  margin: 0;
+  border-bottom: 1.5px solid;
+  height: 26px;
+}
+.mainframe .txtbox .txtbottom .txtbtm_rt .txtbtm_rt_dn {
+  width: 100%;
+  height: 120px;
+}
+.mainframe .txtbox .txtbottom .txtbtm_rt .txtbtm_rt_dn p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  display: inline;
+}
+.mainframe .txtbox .txtbottom .txtbtm_rt .txtbtm_rt_dn span {
+  font-size: 20px;
+  font-weight: 600;
+  display: inline;
+  background-color: #fbf3d8;
+}
+.mainframe .txtbox .txtbottom .txtbtm_rt .txtbtm_rt_dn p:last-child {
+}
+.mainframe .txtbox .txtbottom .txtbtm_rt .txtbtm_rt_dn {
+}
+
+/* 경일아카데미 게임 기혹자 과정 end */
+/* 게임 기획자의 꿈, 5개월만에 이뤄드립니다. end */
+
+/* 교육 과정 안내 start */
+.mainframe .edubox {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.mainframe .edutitle {
+}
+
+.mainframe .edutitle h3 {
+  font-size: 24px;
+  line-height: 2;
+  height: 30px;
+}
+
+/* 교육 과정 안내 end */
