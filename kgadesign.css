@@ -1095,3 +1095,47 @@ body {
   font-weight: 300;
 }
 /* 방문자 수 end */
+
+/* top btn start */
+.mainframe .topbtn {
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  position: fixed;
+  right: 20px;
+  bottom: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainframe .topbtn a {
+  text-decoration-line: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+.mainframe .topbtn .topbtn_up {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainframe .topbtn .topbtn_up .topbtn_up_arrow {
+  width: 12px;
+  height: 12px;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/254/254434.png");
+  background-size: cover;
+  transform: rotate(270deg);
+}
+.mainframe .topbtn .topbtn_dn {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainframe .topbtn .topbtn_dn .topbtn_dn_txt {
+  font-size: 10px;
+}
+
+/* top btn end */
