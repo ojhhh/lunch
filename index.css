@@ -654,6 +654,8 @@ body {
     display: flex;
     /* background-color: lightgreen; */
     width: 700px;
+
+    padding: 3px 2px;
 }
 
 .dot_area {
@@ -768,22 +770,148 @@ body {
 .bookmark_block_area {
     width: 708px;
     height: 112px;
-    /* background-color: green; */
+    /* background-color: yellow; */
+
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    display: flex;
+    align-items: center;
+    justify-content: center;  
     
 }
 
 
 .bookmark_block_a_tag {
-    width: 100%;
-    height: 100%;
-    margin: 100px;
+    width: 716px;
+    height: 114px;
+    /* margin: 100px; */
 
-    background-color: blue;
-    border: solid 1px red ;
+    /* 이걸 하면 text 에 표시가 된다.  */
+    /* background-color: blue; */
+    /* border: solid 1px red ; */
+
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    
+
+}
+
+.bookmark_block_inner_text_image_wrap {
+    box-sizing: border-box;
+    width: 710px;
+    height: 108px;
+    /* border: 1px blue; */
+    /* background-color: gray; */
+
+    /* background-color: springgreen; */
+
+
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+
+    border: 1px solid rgba(55,53,47,.16);
+    
+}
+
+
+.bookmark_block_inner_content_text_container {
+
+    width: 456px;
+    height: 106px;
+    /* background-color: green;/ */
+
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 
 }
 
 
+.bookmark_block_inner_content_text_title {
+
+    width: 430px;
+    height: 24px;
+    /* background-color: lightsalmon; */
+
+    font-size: 14px;
+
+    /* ✅ 텍스트 간 줄간격 ⭐⭐⭐ */
+    line-height : 20px ;
+
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    display: flex;
+    align-items: center;
+
+}
+
+
+.bookmark_block_inner_content_text_desc {
+
+    width: 430px;
+    height: 40px;
+    /* background-color: lightslategray; */
+
+    font-size: 12px;
+
+    /* ✅ 텍스트 간 줄간격 ⭐⭐⭐ */
+    line-height : 16px ;
+
+    overflow: hidden;
+    opacity: 0.6 ;
+
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    display: flex;
+    align-items: flex-start;
+
+    position: relative;
+}
+
+
+
+.bookmark_block_inner_content_desc_design {
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+
+    position: absolute;
+    top : -6px;
+
+}
+
+
+
+
+.bookmark_block_inner_content_text_link {
+
+    width: 430px;
+    height: 16px;
+    /* background-color: lightgoldenrodyellow; */
+
+    font-size: 12px;
+
+    /* ✅ 텍스트 간 줄간격 ⭐⭐⭐ */
+    line-height : 16px ;
+
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    display: flex;
+    align-items: center;
+}
+
+
+
+.bookmark_block_inner_content_image {
+
+    box-sizing: border-box;
+    width: 250px;
+    height: 106px;
+    /* background-color: lemonchiffon; */
+}
 
 
 
