@@ -994,7 +994,7 @@ body {
   cursor: pointer;
 } */
 .mainframe .aboutbox .aboutframe .abouttxtbox .aboutbox_lt {
-  width: 65%;
+  width: 100%;
   height: 100%;
   padding: 12px;
 }
@@ -1039,7 +1039,7 @@ body {
   background-size: cover;
 }
 .mainframe .aboutbox .aboutframe .abouttxtbox .aboutbox_rt {
-  width: 35%;
+  width: 40%;
   height: 100%;
   background-image: url("https://oopy.lazyrockets.com/api/v2/notion/image?src=http%3A%2F%2Fk.kakaocdn.net%2Fdn%2F812On%2FbtqjSHnn3I4%2FJVoieCk4b6aDMyvwMSSQV1%2Fimg_m.jpg&blockId=d3b6f8d4-01f3-406c-b272-7f6ae56c7c1f&width=512");
   background-size: cover;
