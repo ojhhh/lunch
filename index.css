@@ -260,7 +260,7 @@ body {
     left: 0px;
     right: 0px;
     margin: 0px auto;
-    width: 88%;
+    width: 708px;
     /* max-width: var(--content-max-width); */
     height: 48px;
 
@@ -279,7 +279,7 @@ body {
     background-color: rgb(5, 99, 140);
     text-decoration: none;
     
-    
+
     /* 글씨, 도형 디자인 */
     border-radius: 8px;
     font-weight: 700;
