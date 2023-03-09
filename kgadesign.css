@@ -1,0 +1,1142 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+.sec {
+  display: flex;
+  flex-direction: column;
+}
+
+/* nav start */
+.navbar {
+  width: 100%;
+  height: 45px;
+  position: fixed;
+  background-color: white;
+  z-index: 1;
+  display: flex;
+}
+.navbar .navframe {
+  width: 100%;
+  display: flex;
+}
+.navbar .navframe .navlogo {
+  display: flex;
+  width: 200px;
+  height: 100%;
+  align-items: center;
+  padding: 0 6px;
+}
+.navbar .navframe .navlogo .navtxt {
+  width: 250px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.navbar .navframe .navlogo .navtxt:hover {
+  border-radius: 5px;
+  width: 100%;
+  height: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.navbar .navframe .navemp {
+  width: 1200px;
+  height: 100%;
+}
+
+.navbar .navframe .navbtn {
+}
+.navbar .navframe .navbtn .navbtnframe {
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.navbar .navframe .navbtn .navbtnframe .navsearch {
+  width: auto;
+  display: flex;
+  margin-right: 5px;
+  height: 30px;
+  align-items: center;
+  padding: 0px 2px 0 4px;
+}
+.navbar .navframe .navbtn .navbtnframe .navsearch:hover {
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.navbar .navframe .navbtn .navbtnframe .navsearch .navsearchimg {
+  width: 15px;
+  height: 15px;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/622/622669.png");
+  background-size: cover;
+}
+.navbar .navframe .navbtn .navbtnframe .navsearch .navsearchtxt {
+  width: 35px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.navbar .navframe .navbtn .navbtnframe .navcopy {
+  width: 40px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  justify-content: center;
+}
+.navbar .navframe .navbtn .navbtnframe .navcopy:hover {
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+/* nav end */
+
+/* 메인 이미지 start */
+.mainimg {
+  width: 100%;
+  height: 290px;
+  border: 1px solid;
+}
+
+.mainimg .mimg {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fcf240f1f-f05c-456f-947a-4d4cbe70bd91%2F%25EC%25BB%25A4%25EB%25B2%2584_(1).jpg&blockId=694dcd71-9995-4f26-b1cd-5604d2c3af6a&width=3600");
+  background-size: cover;
+}
+/* 메인 이미지 end */
+
+/* 메인프레임 start */
+.mainframe {
+  position: relative;
+  width: 900px;
+  max-width: 900px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainframe .title {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.mainframe .title h1 {
+  margin: 0;
+  height: 55px;
+  max-width: 100%;
+  font-size: 45px;
+  font-weight: 700;
+  padding: 3px 2px;
+  line-height: 1.5;
+}
+/* 메인프레임 end */
+
+/* 후기 이미지 start */
+.mainframe .reviewimg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.mainframe .reviewimg .rimg {
+  position: relative;
+  background-size: contain;
+  padding: 0 100px;
+}
+
+.mainframe .reviewimg .rimg img {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+}
+/* 후기 이미지 end */
+
+/* 얇은 가로선 start */
+.mainframe .crossline {
+  width: 720px;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  margin-top: 10px;
+  padding: 0 100px;
+}
+/* 얇은 가로선 end */
+
+/* 중간 박스 start */
+.mainframe .cutbox {
+  width: 100%;
+}
+.mainframe .cutbox54 {
+  height: 54px;
+}
+.mainframe .cutbox30 {
+  height: 30px;
+}
+.mainframe .cutbox60 {
+  height: 60px;
+}
+.mainframe .cutbox90 {
+  height: 90px;
+}
+.mainframe .cutbox300 {
+  height: 200px;
+}
+/* 중간 박스 end */
+
+/* 노트북 이미지 start */
+.mainframe .noteboximg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0 100px;
+}
+
+.mainframe .noteboximg .nbimg {
+  position: relative;
+  background-size: contain;
+  padding: 0 100px;
+}
+
+.mainframe .noteboximg .nbimg img {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+}
+/* 노트북 이미지 end */
+
+/* 경일아카데미 게임 기혹자 과정 start */
+/* 게임 기획자의 꿈, 5개월만에 이뤄드립니다. start */
+
+.mainframe .txtbox {
+  width: 100%;
+  height: auto;
+  padding: 0 100px;
+}
+
+.mainframe .txtbox .txt_title {
+}
+.mainframe .txtbox .txt_title h3 {
+  font-size: 24px;
+  line-height: 2;
+  height: 30px;
+}
+
+.mainframe .txtbox .txt_body {
+  display: flex;
+}
+
+.mainframe .txtbox .txt_body .line {
+  height: 120px;
+  border: 1.5px solid rgba(0, 0, 0, 0.5);
+}
+.mainframe .txtbox .txt_body .txt_word {
+  width: 100%;
+  height: 120px;
+  padding: 4px 14px 0 14px;
+  line-height: 1.2;
+}
+
+.mainframe .txtbox .txt_body .txt_word p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+.mainframe .txtbox .txt_body .txt_word span {
+  font-size: 18px;
+  font-weight: 600;
+  display: inline;
+  background-color: #fbf3d8;
+}
+
+.mainframe .txtbox .txt_body .txt_word p:last-child {
+  display: inline;
+}
+
+.mainframe .txtbox .txtbottom {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  display: flex;
+}
+
+.mainframe .txtbox .txtbottom .txtbtm_lt {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainframe .txtbox .txtbottom .txtbtm_lt .arrow {
+  cursor: pointer;
+  width: 24px;
+  height: 28px;
+  border-radius: 5px;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/254/254434.png");
+  background-size: 12px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.mainframe .txtbox .txtbottom .txtbtm_lt .arrow:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: 1s ease;
+  width: 24px;
+  height: 28px;
+  border-radius: 5px;
+}
+.mainframe .txtbox .txtbottom .txtbtm_rt {
+}
+.mainframe .txtbox .txtbottom .txtbtm_rt .txtbtm_rt_up {
+  width: 100%;
+  height: 40px;
+}
+.mainframe .txtbox .txtbottom .txtbtm_rt .txtbtm_rt_up p {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.4);
+  line-height: 2;
+  margin: 0;
+  border-bottom: 1.5px solid;
+  height: 26px;
+}
+.mainframe .txtbox .txtbottom .txtbtm_rt .txtbtm_rt_dn {
+  width: 100%;
+  height: 120px;
+}
+.mainframe .txtbox .txtbottom .txtbtm_rt .txtbtm_rt_dn p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  display: inline;
+}
+.mainframe .txtbox .txtbottom .txtbtm_rt .txtbtm_rt_dn span {
+  font-size: 18px;
+  font-weight: 600;
+  display: inline;
+  background-color: #fbf3d8;
+}
+.mainframe .txtbox .txtbottom .txtbtm_rt .txtbtm_rt_dn p:last-child {
+}
+.mainframe .txtbox .txtbottom .txtbtm_rt .txtbtm_rt_dn {
+}
+
+/* 경일아카데미 게임 기혹자 과정 end */
+/* 게임 기획자의 꿈, 5개월만에 이뤄드립니다. end */
+
+/* 교육 과정 안내 start */
+.mainframe .edubox {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0 100px;
+}
+.mainframe .edutitle {
+}
+
+.mainframe .edutitle h3 {
+  font-size: 24px;
+  line-height: 2;
+  height: 30px;
+}
+
+.mainframe .edubox .eduboxin1 {
+  width: 100%;
+  height: 130px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 10px;
+}
+
+.mainframe .edubox .eduboxin1 .eduboxframe {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.mainframe .edubox .eduboxin1 .eduboxframe .edubox_lt {
+  width: 30px;
+  height: 100%;
+}
+.mainframe .edubox .eduboxin1 .eduboxframe .edubox_lt .edubox_lt_img {
+  width: 24px;
+  height: 28px;
+  background: url("https://cdn.lazyrockets.com/_next/static/images/emoji-cd0caf391218ef7e695cd8315d235038.png");
+  background-position-x: 79.66101694915254%;
+  background-position-y: 88.13559322033898%;
+  background-repeat: no-repeat;
+  background-size: 6000% 6000%;
+}
+
+.mainframe .edubox .eduboxin1 .eduboxframe .edubox_lt .edubox_lt_img img {
+}
+
+.mainframe .edubox .eduboxin1 .eduboxframe .edubox_rt {
+  width: 100%;
+  height: 100%;
+}
+.mainframe .edubox .eduboxin1 .eduboxframe .edubox_rt span {
+  color: #37352f;
+  font-weight: 800;
+  line-height: 2;
+}
+.mainframe .edubox .eduboxin1 .eduboxframe .edubox_rt p {
+  margin: 0;
+  font-weight: 400;
+  line-height: 20px;
+}
+.mainframe .edubox .eduboxin1 .eduboxframe .edubox_rt p:nth-child(3) {
+  font-weight: 200;
+}
+/* 교육 과정 안내 end */
+
+/* 교육 기간 start */
+.mainframe .edubox .eduboxin2 {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 10px;
+}
+
+.mainframe .edubox .eduboxin2 .eduboxframe {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.mainframe .edubox .eduboxin2 .eduboxframe .edubox_lt {
+  width: 30px;
+  height: 100%;
+}
+.mainframe .edubox .eduboxin2 .eduboxframe .edubox_lt .edubox_lt_img {
+  width: 24px;
+  height: 28px;
+  background-image: url("https://cdn.lazyrockets.com/_next/static/images/emoji-cd0caf391218ef7e695cd8315d235038.png");
+  background-position-x: 54.23728813559322%;
+  background-position-y: 62.71186440677966%;
+  background-repeat: no-repeat;
+  background-size: 6000% 6000%;
+}
+
+.mainframe .edubox .eduboxin2 .eduboxframe .edubox_lt .edubox_lt_img img {
+}
+
+.mainframe .edubox .eduboxin2 .eduboxframe .edubox_rt {
+  width: 100%;
+  height: 100%;
+}
+.mainframe .edubox .eduboxin2 .eduboxframe .edubox_rt span {
+  color: #37352f;
+  font-weight: 800;
+  line-height: 2;
+}
+.mainframe .edubox .eduboxin2 .eduboxframe .edubox_rt p {
+  margin: 0;
+  font-weight: 400;
+  line-height: 20px;
+}
+/* 교육 기간 end */
+
+/* 수강료 전액 국비 지원 start */
+.mainframe .edubox .eduboxin3 {
+  width: 100%;
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px 16px;
+  margin-bottom: 10px;
+}
+
+.mainframe .edubox .eduboxin3 .eduboxframe {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.mainframe .edubox .eduboxin3 .eduboxframe .edubox_lt {
+  width: 30px;
+  height: 100%;
+}
+.mainframe .edubox .eduboxin3 .eduboxframe .edubox_lt .edubox_lt_img {
+  width: 24px;
+  height: 28px;
+  background: url("https://cdn.lazyrockets.com/_next/static/images/emoji-cd0caf391218ef7e695cd8315d235038.png");
+  background-position-x: 47.45762711864407%;
+  background-position-y: 25.423728813559322%;
+  background-repeat: no-repeat;
+  background-size: 6000% 6000%;
+}
+
+.mainframe .edubox .eduboxin3 .eduboxframe .edubox_lt .edubox_lt_img img {
+}
+
+.mainframe .edubox .eduboxin3 .eduboxframe .edubox_rt {
+  width: 100%;
+  height: 100%;
+}
+.mainframe .edubox .eduboxin3 .eduboxframe .edubox_rt span {
+  color: #37352f;
+  font-weight: 800;
+  line-height: 2;
+  display: inline-block;
+}
+.mainframe .edubox .eduboxin3 .eduboxframe .edubox_rt span:first-child {
+  display: block;
+}
+.mainframe .edubox .eduboxin3 .eduboxframe .edubox_rt span:nth-child(2) {
+  color: red;
+  text-decoration: line-through;
+}
+.mainframe .edubox .eduboxin3 .eduboxframe .edubox_rt span:last-child {
+}
+.mainframe .edubox .eduboxin3 .eduboxframe .edubox_rt p {
+  margin: 0;
+  font-weight: 400;
+  line-height: 20px;
+  display: inline-block;
+}
+/* 수강료 전액 국비 지원 end */
+
+/* mainimg2 start */
+.mainimg2 {
+  width: 100vw;
+  height: 320px;
+  border: 1px solid;
+}
+
+.mainimg2 .mimg2 {
+  width: 100%;
+  height: 320px;
+  background-image: url(https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1529119368496-2dfda6ec2804%3Fixlib%3Drb-4.0.3%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb&blockId=9fa7ef40-5a6c-4d33-9b18-cc8370aa5acb);
+  background-size: cover;
+  background-position-y: center;
+}
+/* mainimg2 end */
+
+/* 경일의 교육 철학 start */
+
+.mainframe .kgatitle {
+  width: 100%;
+  height: 100px;
+  padding: 0 100px;
+}
+.mainframe .kgatitle .kgatitlebox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+.mainframe .kgatitle .kgatitlebox .kgattimg {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+
+  background-repeat: no-repeat;
+  background-image: url("	https://cdn.lazyrockets.com/_next/static/images/emoji-cd0caf391218ef7e695cd8315d235038.png");
+  background-position-x: 49.152542372881356%;
+  background-position-y: 22.033898305084744%;
+  -webkit-background-size: 6000% 6000%;
+  background-size: 6000% 6000%;
+}
+.mainframe .kgatitle .kgatitlebox h1 {
+  padding-left: 10px;
+  line-height: 0.8;
+  margin: 0;
+}
+
+/* 경일의 교육 철학 end */
+
+/* 빠르게 보다 제대로 교육합니다 start */
+.mainframe .txtbox.txtboxkga .line {
+  height: 140px;
+}
+/* 빠르게 보다 제대로 교육합니다 end */
+
+/* 제대로 교육 아래 이미지 start */
+.mainframe .fastedu {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  padding: 0 100px;
+}
+.mainframe .fastedu .fasteduimg {
+  width: 100%;
+  height: 472px;
+  background-image: url("https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1517245386807-bb43f82c33c4%3Fixlib%3Drb-4.0.3%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb&blockId=b05a7412-9661-440a-bf32-03f2d30b23ac");
+  background-size: contain;
+}
+/* 제대로 교육 아래 이미지 end */
+
+/* 기하급수적 성장, 오프라인 교육. start */
+.mainframe .txtbox.txtboxex {
+}
+.mainframe .txtbox.txtboxex .line {
+  height: 140px;
+}
+.mainframe .txtbox.txtboxex .txt_word p {
+  display: inline;
+}
+.mainframe .txtbox.txtboxex .txt_word span {
+  background-color: white;
+}
+.mainframe .txtbox.txtboxex .txt_word span:last-child {
+  background-color: #fbf3d8;
+}
+
+/* 기하급수적 성장, 오프라인 교육. end */
+
+/* 기하급수 성장 아래 이미지 start */
+.mainframe .exunder {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  padding: 0 100px;
+}
+.mainframe .exunder .exunderimg {
+  width: 100%;
+  height: 472px;
+  background-image: url("https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1565689157206-0fddef7589a2%3Fixlib%3Drb-4.0.3%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb&blockId=86f0d5f5-ad62-44ab-a17f-4aef3c3fb2de");
+  background-size: contain;
+}
+/* 기하급수 성장 아래 이미지 end */
+
+/* 믿음과 신념 start */
+.mainframe .txtbox.txtboxbeli {
+}
+.mainframe .txtbox.txtboxbeli .txt_body .line {
+  height: 200px;
+}
+.mainframe .txtbox.txtboxbeli .txt_word span {
+}
+/* 믿음과 신념 end */
+
+/* 믿음과 신념 아래 이미지 start */
+.mainframe .beliunder {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  padding: 0 100px;
+}
+.mainframe .beliunder .beliunderimg {
+  width: 100%;
+  height: 472px;
+  background-image: url("https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1581474859688-82ea214f852c%3Fixlib%3Drb-4.0.3%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb&blockId=26e1a173-d38f-4ac7-b993-6f36aa46f329");
+  background-size: contain;
+}
+/* 믿음과 신념 아래 이미지 end */
+
+/* mainimg3 start */
+.mainimg3 {
+  width: 100vw;
+  height: 320px;
+  border: 1px solid;
+}
+
+.mainimg3 .mimg3 {
+  width: 100%;
+  height: 320px;
+  background-image: url("https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1527219525722-f9767a7f2884%3Fixlib%3Drb-4.0.3%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb&blockId=73b6e801-bc68-4de7-a9b2-2971bc6efb4e");
+  background-size: cover;
+  background-position-y: center;
+}
+/* mainimg3 end */
+
+/* kga가 기획 맛집인 이유 start */
+.mainframe .kgafood {
+  width: 100%;
+  height: auto;
+  padding: 0 100px;
+}
+.mainframe .kgafood .kgafoodbox {
+}
+.mainframe .kgafood .kgafoodbox h3 {
+  font-size: 24px;
+  line-height: 2;
+  height: 30px;
+  line-height: 1.2;
+  color: #37352f;
+}
+
+/* kga가 기획 맛집인 이유 end */
+
+/* kga 기획 맛집 아래 이미지 start */
+.mainframe .foodunder {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  padding: 0 100px;
+}
+.mainframe .foodunder .foodunderimg {
+  width: 100%;
+  height: 815px;
+  background-image: url("https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F8a6baa2d-817f-4954-a33c-3f9855c4a047%2F221207_%25EA%25B2%258C%25EC%259E%2584%25EA%25B8%25B0%25ED%259A%258D_%25EC%259A%25B0%25ED%2594%25BC_%25EC%25BB%25A4%25EB%25A6%25AC%25ED%2581%2598%25EB%259F%25BC.jpg&blockId=3b744ab4-3f91-4b21-86de-8b2750f82a0c");
+  background-size: contain;
+}
+/* kga 기획 맛집 아래 이미지 end */
+
+/* 현업에서 인정 받는 기획자 start */
+.mainframe .reco {
+  width: 100%;
+  height: auto;
+  padding: 0 100px;
+}
+.mainframe .reco .recobox {
+}
+.mainframe .reco .recobox h3 {
+  font-size: 24px;
+  line-height: 2;
+  height: 30px;
+  color: #37352f;
+}
+
+/* 현업에서 인정 받는 기획자 end */
+
+/* 인정 받는 기획자 밑에 표1 start */
+.mainframe .recotable {
+  width: 100%;
+  height: auto;
+  padding: 0 100px;
+}
+.mainframe .recotable .recotableframe {
+  width: 100%;
+  height: 220px;
+  margin-top: 20px;
+  display: flex;
+}
+.mainframe .recotable .recotableframe .recoimg {
+  width: 48%;
+  height: 100%;
+  background-image: url("https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1504384308090-c894fdcc538d%3Fixlib%3Drb-4.0.3%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb&blockId=62925202-abcb-41e7-ae4b-91df3e1bafa9");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mainframe .recotable .recotableframe .recoemp {
+  width: 4%;
+  height: 100%;
+}
+.mainframe .recotable .recotableframe .recotxt {
+  width: 48%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.mainframe .recotable .recotableframe .recotxt .txttitle {
+  width: 100%;
+  height: 30px;
+}
+.mainframe .recotable .recotableframe .recotxt .txttitle span {
+  font-size: 22px;
+  height: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
+  line-height: 2;
+  font-weight: bold;
+}
+.mainframe .recotable .recotableframe .recotxt .txtword {
+  width: 100%;
+  height: 130px;
+  margin-top: 18px;
+}
+.mainframe .recotable .recotableframe .recotxt .txtword p {
+  display: inline;
+  font-size: 18px;
+}
+
+.mainframe .recotable .recotableframe .recotxt .txtword span {
+  background-color: #fbf3d8;
+  display: inline;
+  font-size: 18px;
+}
+.mainframe .recotable .recotableframe .recotxt .txtempbox {
+  width: 100%;
+  height: 40px;
+}
+
+/* 인정 받는 기획자 밑에 표1 end */
+
+/* 인정 받는 기획자 밑에 표2 start */
+.mainframe .recotable .recotableframe.recof2 .recoimg {
+  height: 200px;
+  background-image: url("https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1530099486328-e021101a494a%3Fixlib%3Drb-4.0.3%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb&blockId=3cfba330-9353-4c69-a903-2f9bf26944e0");
+}
+/* 인정 받는 기획자 밑에 표2 end */
+
+/* 인정 받는 기획자 밑에 표3 start */
+.mainframe .recotable .recotableframe.recof3 {
+}
+.mainframe .recotable .recotableframe.recof3 .recoimg {
+  height: 250px;
+  background-image: url("https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1579373903781-fd5c0c30c4cd%3Fixlib%3Drb-4.0.3%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb&blockId=7f8bb23c-1437-4302-84c9-8d51432d23e7");
+}
+/* 인정 받는 기획자 밑에 표3 end */
+
+/* 게임 기획 포트폴리오 start */
+.mainframe .popol {
+  width: 100%;
+  height: auto;
+  padding: 0 100px;
+}
+.mainframe .popol .popolbox {
+}
+.mainframe .popol .popolbox h3 {
+  margin: 0;
+  font-size: 24px;
+  height: 30px;
+  color: #37352f;
+}
+/* 게임 기획 포트폴리오 end */
+
+/* 포트폴리오 아래 이미지1 start */
+.mainframe .popolunder {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  padding: 0 100px;
+}
+.mainframe .popolunder .popolunderimg1 {
+  width: 100%;
+  height: 680px;
+  background-image: url("https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F9b246fd7-ab7e-45d6-8574-31f3ad5d5426%2F221207_%25EA%25B2%258C%25EC%259E%2584%25EA%25B8%25B0%25ED%259A%258D_%25EC%259A%25B0%25ED%2594%25BC_%25ED%258F%25AC%25ED%258F%25B403.jpg&blockId=7061bb70-a9be-4fca-a476-5e6cdb2512ff");
+  background-size: contain;
+}
+/* 포트폴리오 아래 이미지1 end */
+/* 포트폴리오 아래 이미지2 start */
+.mainframe .popolunder .popolunderimg2 {
+  width: 100%;
+  height: 680px;
+  background-image: url("https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F6c07f127-31c9-4d2a-b75d-39e840d48d4d%2F221207_%25EA%25B2%258C%25EC%259E%2584%25EA%25B8%25B0%25ED%259A%258D_%25EC%259A%25B0%25ED%2594%25BC_%25ED%258F%25AC%25ED%258F%25B402.jpg&blockId=32d6efcc-f18d-4fba-8496-cef916871c6d");
+  background-size: contain;
+}
+/* 포트폴리오 아래 이미지2 end */
+/* 포트폴리오 아래 이미지3 start */
+.mainframe .popolunder .popolunderimg3 {
+  width: 100%;
+  height: 680px;
+  background-image: url("https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F2731c89e-f661-4edf-8bdc-cb8c44345fe6%2F221207_%25EA%25B2%258C%25EC%259E%2584%25EA%25B8%25B0%25ED%259A%258D_%25EC%259A%25B0%25ED%2594%25BC_%25ED%258F%25AC%25ED%258F%25B401.jpg&blockId=a9f70a7d-d198-4c1e-a942-1dc1ba8184da");
+  background-size: contain;
+}
+/* 포트폴리오 아래 이미지3 end */
+
+/* 자주 묻는 질문 title start */
+.mainframe .questions {
+  width: 100%;
+  height: auto;
+  padding: 0 100px;
+}
+.mainframe .questions .questionsbox {
+}
+.mainframe .questions .questionsbox h3 {
+  font-size: 24px;
+  line-height: 2;
+  height: 30px;
+  color: #37352f;
+}
+/* 자주 묻는 질문 title end */
+
+/* 자주 묻는 질문 word start */
+.mainframe .qusbox {
+  width: 100%;
+  height: auto;
+  padding: 0 100px;
+}
+.mainframe .qusbox .qusboxframe {
+  display: flex;
+}
+.mainframe .qusbox .qusboxframe .qusbox_lt {
+  width: 30px;
+  height: 30px;
+}
+.mainframe .qusbox .qusboxframe .qusbox_lt .qusbox_lt_arrow {
+  cursor: pointer;
+  width: 24px;
+  height: 28px;
+  border-radius: 5px;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/254/254434.png");
+  background-size: 12px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mainframe .qusbox .qusboxframe .qusbox_lt .qusbox_lt_arrow:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: 1s ease;
+  width: 24px;
+  height: 28px;
+  border-radius: 5px;
+}
+.mainframe .qusbox .qusboxframe .qusbox_rt {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.mainframe .qusbox .qusboxframe .qusbox_rt .qusbox_rt_up {
+  display: flex;
+  align-items: center;
+}
+.mainframe .qusbox .qusboxframe .qusbox_rt .qusbox_rt_up p {
+  margin: 5px;
+}
+.mainframe .qusbox .qusboxframe .qusbox_rt .qusbox_rt_dn p {
+  margin: 5px;
+}
+
+.mainframe .qusboxframe.qbf4 .qusbox_rt_dn p {
+  display: inline;
+}
+.mainframe .qusboxframe.qbf4 .qusbox_rt_dn a {
+  color: rgba(0, 0, 0, 0.5);
+  display: inline;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  text-decoration-line: none;
+}
+.mainframe .qusboxframe.qbf4 .qusbox_rt_dn a:hover {
+  color: rgba(0, 0, 0, 1);
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+
+/* 자주 묻는 질문 word end */
+
+/* 문의하기 start */
+.mainframe .aboutbox {
+  width: 100%;
+  height: auto;
+  padding: 0 100px;
+}
+.mainframe .aboutbox .aboutframe {
+}
+.mainframe .aboutbox .aboutframe .abouttitle {
+  display: flex;
+}
+.mainframe .aboutbox .aboutframe .abouttitle h2 {
+  font-size: 30px;
+  line-height: 2;
+  height: 30px;
+}
+.mainframe .aboutbox .aboutframe .aboutnumber {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: flex-end;
+}
+.mainframe .aboutbox .aboutframe .aboutnumber div {
+  width: 30px;
+  height: 30px;
+}
+.mainframe .aboutbox .aboutframe .aboutnumber p {
+  margin: 0;
+}
+.mainframe .aboutbox .aboutframe .aboutnumber a {
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  text-decoration-line: none;
+}
+.mainframe .aboutbox .aboutframe .aboutnumber a:visited {
+  text-decoration: none;
+}
+.mainframe .aboutbox .aboutframe .aboutnumber a:active {
+}
+.mainframe .aboutbox .aboutframe .aboutnumber a:hover {
+  opacity: 1;
+  color: rgba(0, 0, 0, 1);
+}
+.mainframe .aboutbox .aboutframe .aboutnumber .aboutimg {
+  width: 30px;
+  height: 30px;
+  padding: 4px;
+}
+.mainframe .aboutbox .aboutframe .aboutnumber .aboutimg2 {
+  width: 30px;
+  height: 30px;
+  padding: 4px;
+}
+.mainframe .aboutbox .aboutframe .aboutnumber .aboutimg .abimg {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-image: url("https://cdn.lazyrockets.com/_next/static/images/emoji-cd0caf391218ef7e695cd8315d235038.png");
+  background-position-x: 59.32203389830508%;
+  background-position-y: 22.033898305084744%;
+  background-size: 6000% 6000%;
+}
+.mainframe .aboutbox .aboutframe .aboutnumber .aboutimg2 .abimg2 {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-image: url("https://cdn.lazyrockets.com/_next/static/images/emoji-cd0caf391218ef7e695cd8315d235038.png");
+  background-position-x: 93.22033898305084%;
+  background-position-y: 83.05084745762711%;
+  background-size: 6000% 6000%;
+}
+.mainframe .aboutbox .aboutframe .abouttxtbox {
+  width: 100%;
+  height: 100px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+  display: flex;
+}
+
+/* .mainframe .aboutbox .aboutframe .abouttxtbox:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+} */
+.mainframe .aboutbox .aboutframe .abouttxtbox .aboutbox_lt {
+  width: 100%;
+  height: 100%;
+  padding: 12px;
+}
+.mainframe .aboutbox .aboutframe .abouttxtbox a {
+  text-decoration-line: none;
+}
+.mainframe .aboutbox .aboutframe .abouttxtbox a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.mainframe .aboutbox .aboutframe .abouttxtbox a:visited {
+  text-decoration: none;
+}
+
+.mainframe .aboutbox .aboutframe .abouttxtbox .aboutbox_lt .aboutbox_lt_txt {
+}
+
+.mainframe
+  .aboutbox
+  .aboutframe
+  .abouttxtbox
+  .aboutbox_lt
+  .aboutbox_lt_txt
+  span {
+  color: rgba(0, 0, 0, 0.8);
+}
+.mainframe .aboutbox .aboutframe .abouttxtbox .aboutbox_lt .aboutbox_lt_txt p {
+  margin: 4px 0 4px 0;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.mainframe
+  .aboutbox
+  .aboutframe
+  .abouttxtbox
+  .aboutbox_lt
+  .aboutbox_lt_txt
+  .aboutbox_lt_txt_img {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background-image: url("https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fpf.kakao.com%2Ffavicon.ico&blockId=d3b6f8d4-01f3-406c-b272-7f6ae56c7c1f&width=32");
+  background-size: cover;
+}
+.mainframe .aboutbox .aboutframe .abouttxtbox .aboutbox_rt {
+  width: 40%;
+  height: 100%;
+  background-image: url("https://oopy.lazyrockets.com/api/v2/notion/image?src=http%3A%2F%2Fk.kakaocdn.net%2Fdn%2F812On%2FbtqjSHnn3I4%2FJVoieCk4b6aDMyvwMSSQV1%2Fimg_m.jpg&blockId=d3b6f8d4-01f3-406c-b272-7f6ae56c7c1f&width=512");
+  background-size: cover;
+  background-position-y: 170px;
+}
+/* 문의하기 end */
+
+/* 입사 지원하기 start */
+.mainframe .support {
+  width: 100vw;
+  height: 50px;
+  position: fixed;
+  bottom: 10px;
+  left: 0;
+}
+.mainframe .support a {
+  text-decoration-line: none;
+}
+.mainframe .support .supportbox {
+  margin: 0 auto;
+  width: 700px;
+  height: 100%;
+  background-color: #5454e2;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainframe .support .supportbox .supporttxt {
+  color: white;
+  text-align: center;
+}
+/* 입사 지원하기 end */
+
+/* 방문자 수 start */
+.mainframe .visit {
+  width: 100%;
+  height: auto;
+  padding: 0 100px;
+}
+.mainframe .visit .visitbox {
+  height: 100px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.mainframe .visit .visitbox span {
+  margin: 0;
+  font-weight: bold;
+}
+.mainframe .visit .visitbox p {
+  margin: 0 5px;
+  font-weight: 300;
+}
+/* 방문자 수 end */
+
+/* top btn start */
+.mainframe .topbtn {
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  position: fixed;
+  right: 20px;
+  bottom: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.mainframe .topbtn a {
+  text-decoration-line: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+.mainframe .topbtn .topbtn_up {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainframe .topbtn .topbtn_up .topbtn_up_arrow {
+  width: 12px;
+  height: 12px;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/254/254434.png");
+  background-size: cover;
+  transform: rotate(270deg);
+}
+.mainframe .topbtn .topbtn_dn {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainframe .topbtn .topbtn_dn .topbtn_dn_txt {
+  font-size: 10px;
+}
+
+/* top btn end */
