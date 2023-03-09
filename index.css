@@ -32,11 +32,11 @@ body {
     width: 100%;
     height: 45px;
 
-    background-color: lightcyan;
+    /* background-color: lightcyan; */
     
 }
 
-.container_topbar_title {
+.container_topbar_title_area {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -44,17 +44,17 @@ body {
     width: 280px;
     height: 24px;
 
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 
-.topbar_title {
+.topbar_title_content {
     display: flex;
     align-items: center;
     justify-content: space-between;
 
     box-sizing: border-box;
-    background-color: lightsalmon;
+    /* background-color: lightsalmon; */
 
     width: 278px;
     height: 20px;
@@ -63,11 +63,15 @@ body {
 }
 
 .wrap_tobar_search_duplicate {
-    background-color: red;
+    /* background-color: red; */
     width: 120px;
 
     display: flex;
     justify-content: center;
+
+    position: relative;
+    top: -2px;
+    right: 2px;
 
 }
 
@@ -75,7 +79,7 @@ body {
 
 
 .container_topbar_search_button {
-    background-color: blue;
+    /* background-color: blue; */
     box-sizing: border-box;
     width: 70px;
     height: 45px;
@@ -86,8 +90,19 @@ body {
 
 }
 
+
+.top_bar_search_icon_design {
+
+    /*  1) ⭐⭐ span 태그로 넣은 경우, 이미지 크기 조정은 font-size 로 할 수 있음
+        2) 그냥 img 태그로 넣으면 -> width, height 로 조절해야 */
+    font-size: 14px;
+
+}
+
+
+
 .container_topbar_duplicate_button {
-    background-color: yellow;
+    /* background-color: yellow; */
     box-sizing: border-box;
     width: 46px;
     height: 45px;
@@ -99,7 +114,7 @@ body {
 
 .topbar_search_button {
     box-sizing: border-box;
-    background-color: lightseagreen;
+    /* background-color: lightseagreen; */
 
     width: 64px;
     height: 28px;
@@ -112,7 +127,7 @@ body {
 }
 
 .topbar_duplicate_button {
-    background-color: rgb(105, 29, 228);
+    /* background-color: rgb(105, 29, 228); */
 
     width: 44px;
     height: 28px;
@@ -133,9 +148,9 @@ body {
 /* 가운데 페이지  */
 .main_page_whole_frame {
     /* background-color: rgb(47, 0, 255, 0.5); */
-    border: 3px solid black;
+    /* border: 3px solid black; */
     width: 100%;
-    height: 7000px;
+    height: 9000px;
 
     position : absolute;
     top: 0px;
@@ -160,7 +175,7 @@ body {
 
 .inner_main_page_title_frame {
     box-sizing: border-box;
-    background-color: red;
+    /* background-color: red; */
 
     width: 716px;
     height: 100%;
@@ -196,7 +211,7 @@ body {
 
 .center_main_empty_area {
     box-sizing: border-box;
-    background-color: blue;
+    /* background-color: blue; */
 
     width: 708px;
     height: 10px;
@@ -206,7 +221,7 @@ body {
 
 .center_main_title_container {
     box-sizing: border-box;
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
 
     width: 708px;
     height: 126px;
@@ -226,7 +241,7 @@ body {
     background-color: rgb(230, 230, 230, 0.2);
 
     width: 716px;
-    height: 7000px;
+    height: 8800px;
    
     /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
     display: flex;
@@ -240,7 +255,7 @@ body {
 
 /* -- [start] ✅ 1st 아이템 / item01 -- */
 .main_page_item01_container {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     
     /* container width 는 고정✅✅ */
     width: 708px;
@@ -669,6 +684,7 @@ body {
 }
 
 .text_area_next_dot {
+    margin-top: 5px;
     width: 700px;
     height: 30px;
     /* background-color: blue; */
@@ -679,6 +695,9 @@ body {
     justify-content: flex-start;    
 
     font-size: 85%;
+
+    /* ✅ 텍스트 간 줄간격 ⭐⭐⭐ */
+    line-height : 20px ;
 
 }
 
@@ -839,6 +858,7 @@ body {
     /* background-color: lightsalmon; */
 
     font-size: 14px;
+    color: black;
 
     /* ✅ 텍스트 간 줄간격 ⭐⭐⭐ */
     line-height : 20px ;
@@ -846,8 +866,6 @@ body {
     /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
     display: flex;
     align-items: center;
-
-
 
 }
 
@@ -875,6 +893,8 @@ body {
     /* background-color: lightslategray; */
 
     font-size: 12px;
+    color: black;
+    opacity: 0.8;
 
     /* ✅ 텍스트 간 줄간격 ⭐⭐⭐ */
     line-height : 16px ;
@@ -887,6 +907,7 @@ body {
     align-items: flex-start;
 
     position: relative;
+
 }
 
 
@@ -912,6 +933,7 @@ body {
     /* background-color: lightgoldenrodyellow; */
 
     font-size: 12px;
+    color: black;
 
     /* ✅ 텍스트 간 줄간격 ⭐⭐⭐ */
     line-height : 16px ;
@@ -967,19 +989,302 @@ body {
 
 .image_area {
 
-    width: 710px;
-    height: 2000px;
+    width: 700px;
+    height: 1700px;
     background-color: aqua;
+
+    
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    display: flex;
+    align-items: top;
+    justify-content: center;
 }
 
 
 .image_container {
 
     width: 708px;
-    height: 1000px;
-    border: 1px solid black;
+    height: 1700px;
+    /* border: 1px solid black; */
+
     background-color: chartreuse;
+
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    display: flex;
+    align-items: top;
+    justify-content: center;
+
 }
+
+.image_content {
+    /* ⭐⭐ 이미지 태그 자체의 사이즈를 조절해야, 원하는 대로 사이즈가 맞아짐 */
+    width: 700px;
+}
+
+
+.empty_enter_area {
+    width: 700px;
+    height: 30px;
+    /* background-color: aquamarine; */
+}
+
+
+
+.textline_link_area {
+
+    margin-top: -4px;
+
+    width: 710px;
+    height: 36px;
+    /* background-color: aquamarine; */
+
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+
+}
+
+
+.textline_link_emoji_text_wrap {
+
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+
+}
+
+
+.textline_link_emoji_container {
+    width: 22px;
+    height: 22px;
+    /* background-color: chartreuse; */
+
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.textline_link_emoji_content {
+
+    width: 20px;
+    height: 20px;
+
+    /* background-color: crimson; */
+    font-size: 19.8px;
+
+
+
+}
+
+.textline_link_emoji_content_img {
+    width: 100%;
+    height: 100%;
+
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    display: flex;
+    align-items: top;
+    justify-content: center;
+
+}
+
+
+.textline_link_text_container {
+
+    width: 680px;
+    height: 22px;
+    
+    /* background-color: coral; */
+
+}
+
+.textline_link_text_content {
+    
+    width: 676px;
+    height: 22px;
+
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    /* display: flex; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+
+
+    position: relative;
+
+    }
+
+
+.textline_link_text_design {
+
+    /* width 를 안 적으니까, text 에 맞게 되는데? ⭐⭐⭐⭐⭐ */
+    /* width: 600px;*/
+    height: 22px;
+    font-size: 13px;
+
+    position: absolute;
+    top: -11px;
+    left: 5px;
+    
+    /* 아랫줄 넣기 ❓❓❓ 이게 글자수랑 연동되는거 같은데...*/
+    border-bottom: 1px solid rgba(55, 53, 47, 0.16);
+
+    /* 쩜쩜쩜 만들기 */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    /* 폰트  */
+    line-height: 1.3;
+    /* font-weight: 500; */
+    color: black;
+    opacity: 0.8;
+
+
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: start;         */
+
+    /* background-color: darkblue; */
+
+}
+
+
+.textline_link_ver2_area_ {
+
+    margin-top: -4px;
+
+    width: 710px;
+    height: 36px;
+    /* background-color: aquamarine; */
+
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+
+}
+
+
+.textline_link_ver2_emoji_text_wrap {
+
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+
+}
+
+
+.textline_link_ver2_emoji_container {
+    width: 22px;
+    height: 22px;
+    /* background-color: chartreuse; */
+
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.textline_link_ver2_emoji_content {
+
+    width: 20px;
+    height: 20px;
+
+    /* background-color: crimson; */
+    font-size: 19.8px;
+
+
+
+}
+
+.textline_link_ver_2_emoji_content_img {
+    width: 100%;
+    height: 100%;
+
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    display: flex;
+    align-items: top;
+    justify-content: center;
+
+}
+
+
+.textline_link_ver_2_text_container {
+
+    width: 680px;
+    height: 22px;
+    
+    /* background-color: coral; */
+
+}
+
+.textline_link_ver_2_text_content {
+    
+    width: 676px;
+    height: 22px;
+
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    /* display: flex; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+
+
+    position: relative;
+
+    }
+
+
+.textline_link_ver_2_text_design {
+
+    /* width 를 안 적으니까, text 에 맞게 되는데? ⭐⭐⭐⭐⭐ */
+    width: 290px;
+    height: 22px;
+    font-size: 15px;
+
+    position: absolute;
+    top: -13px;
+    left: 5px;
+    
+    /* 아랫줄 넣기 ❓❓❓ 이게 글자수랑 연동되는거 같은데...*/
+    /* border-bottom: 1px solid rgba(55, 53, 47, 0.16); */
+
+    /* 쩜쩜쩜 만들기 */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    /* 폰트  */
+    line-height: 1.3;
+    /* font-weight: 500; */
+    color: black;
+    opacity: 0.8;
+
+
+    /* ✅✅ flex 활용해서 가운데로 모으기 ⭐⭐⭐  */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: start;         */
+
+    /* background-color: darkblue; */
+
+}
+
+
+
+
+
+
+
+
+
 
 /* ✅ 공통 부분 
 [container] 
