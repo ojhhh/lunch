@@ -238,7 +238,7 @@ body {
 
 
 .main_page_content_area {
-    background-color: rgb(230, 230, 230, 0.2);
+    /* background-color: rgb(230, 230, 230, 0.2); */
 
     width: 716px;
     height: 8800px;
@@ -251,6 +251,47 @@ body {
     flex-wrap: wrap;
 }
 
+
+.application_bar_link_design {
+
+    /* 위치 및 사이즈  */
+    position: fixed;
+    bottom: 16px;
+    left: 0px;
+    right: 0px;
+    margin: 0px auto;
+    width: 88%;
+    /* max-width: var(--content-max-width); */
+    height: 48px;
+
+
+    /* 정렬 */
+    display: flex;
+    /* align-self: center; */
+    /* -webkit-box-align: center; */
+    align-items: center;
+    /* -webkit-box-pack: center; */
+    justify-content: center;
+
+
+    /* 크기 */
+    color: rgb(255, 255, 255);
+    background-color: rgb(5, 99, 140);
+    text-decoration: none;
+    
+    
+    /* 글씨, 도형 디자인 */
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+
+
+    /* ❓❓❓❓❓  */
+    transition: all 0.3s ease 0s;
+    box-shadow: rgb(55 53 47 / 40%) 0px 0px 4px 2px;
+    /* animation: 0.8s ease 0s 1 normal none running fadeIn; */
+    /* z-index: 10000; */
+}
 
 
 /* -- [start] ✅ 1st 아이템 / item01 -- */
