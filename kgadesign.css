@@ -189,6 +189,9 @@ body {
 .mainframe .cutbox90 {
   height: 90px;
 }
+.mainframe .cutbox300 {
+  height: 200px;
+}
 /* 중간 박스 end */
 
 /* 노트북 이미지 start */
@@ -1045,4 +1048,50 @@ body {
 /* 문의하기 end */
 
 /* 입사 지원하기 start */
+.mainframe .support {
+  width: 100vw;
+  height: 50px;
+  position: fixed;
+  bottom: 10px;
+  left: 0;
+}
+.mainframe .support a {
+  text-decoration-line: none;
+}
+.mainframe .support .supportbox {
+  margin: 0 auto;
+  width: 700px;
+  height: 100%;
+  background-color: #5454e2;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainframe .support .supportbox .supporttxt {
+  color: white;
+  text-align: center;
+}
 /* 입사 지원하기 end */
+
+/* 방문자 수 start */
+.mainframe .visit {
+  width: 100%;
+  height: auto;
+  padding: 0 100px;
+}
+.mainframe .visit .visitbox {
+  height: 100px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.mainframe .visit .visitbox span {
+  margin: 0;
+  font-weight: bold;
+}
+.mainframe .visit .visitbox p {
+  margin: 0 5px;
+  font-weight: 400;
+}
+/* 방문자 수 end */
