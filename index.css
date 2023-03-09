@@ -813,6 +813,8 @@ body {
     align-items: center;
     justify-content: center;  
     
+    /* 링크에서, 밑줄 없애기 ✅ (a 태그에 걸어줘야 함) */
+    text-decoration-line: none;
 
 }
 
@@ -867,7 +869,12 @@ body {
     display: flex;
     align-items: center;
 
+    text-decoration-line: none;
+
 }
+
+
+
 
 /* 말 줄이는 CSS / 1줄로 만들고, 말 줄이기, 점점점 ✅✅✅  */
 .bookmark_inner_text_shorten_dots {
