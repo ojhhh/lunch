@@ -821,8 +821,152 @@ body {
   display: inline;
 }
 .mainframe .qusboxframe.qbf4 .qusbox_rt_dn a {
-  color: #37352f;
+  color: rgba(0, 0, 0, 0.5);
   display: inline;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  text-decoration-line: none;
+}
+.mainframe .qusboxframe.qbf4 .qusbox_rt_dn a:hover {
+  color: rgba(0, 0, 0, 1);
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
 }
 
 /* 자주 묻는 질문 word end */
+
+/* 문의하기 start */
+.mainframe .aboutbox {
+  width: 100%;
+  height: auto;
+  padding: 0 100px;
+}
+.mainframe .aboutbox .aboutframe {
+}
+.mainframe .aboutbox .aboutframe .abouttitle {
+  display: flex;
+}
+.mainframe .aboutbox .aboutframe .abouttitle h2 {
+  font-size: 30px;
+  line-height: 2;
+  height: 30px;
+}
+.mainframe .aboutbox .aboutframe .aboutnumber {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: flex-end;
+}
+.mainframe .aboutbox .aboutframe .aboutnumber div {
+  width: 30px;
+  height: 30px;
+}
+.mainframe .aboutbox .aboutframe .aboutnumber p {
+  margin: 0;
+}
+.mainframe .aboutbox .aboutframe .aboutnumber a {
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  text-decoration-line: none;
+}
+.mainframe .aboutbox .aboutframe .aboutnumber a:visited {
+  text-decoration: none;
+}
+.mainframe .aboutbox .aboutframe .aboutnumber a:active {
+}
+.mainframe .aboutbox .aboutframe .aboutnumber a:hover {
+  opacity: 1;
+  color: rgba(0, 0, 0, 1);
+}
+.mainframe .aboutbox .aboutframe .aboutnumber .aboutimg {
+  width: 30px;
+  height: 30px;
+  padding: 4px;
+}
+.mainframe .aboutbox .aboutframe .aboutnumber .aboutimg2 {
+  width: 30px;
+  height: 30px;
+  padding: 4px;
+}
+.mainframe .aboutbox .aboutframe .aboutnumber .aboutimg .abimg {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-image: url("https://cdn.lazyrockets.com/_next/static/images/emoji-cd0caf391218ef7e695cd8315d235038.png");
+  background-position-x: 59.32203389830508%;
+  background-position-y: 22.033898305084744%;
+  background-size: 6000% 6000%;
+}
+.mainframe .aboutbox .aboutframe .aboutnumber .aboutimg2 .abimg2 {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-image: url("https://cdn.lazyrockets.com/_next/static/images/emoji-cd0caf391218ef7e695cd8315d235038.png");
+  background-position-x: 93.22033898305084%;
+  background-position-y: 83.05084745762711%;
+  background-size: 6000% 6000%;
+}
+.mainframe .aboutbox .aboutframe .abouttxtbox {
+  width: 100%;
+  height: 100px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+  display: flex;
+}
+
+/* .mainframe .aboutbox .aboutframe .abouttxtbox:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+} */
+.mainframe .aboutbox .aboutframe .abouttxtbox .aboutbox_lt {
+  width: 65%;
+  height: 100%;
+  padding: 12px;
+}
+.mainframe .aboutbox .aboutframe .abouttxtbox a {
+  text-decoration-line: none;
+}
+.mainframe .aboutbox .aboutframe .abouttxtbox a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.mainframe .aboutbox .aboutframe .abouttxtbox a:visited {
+  text-decoration: none;
+}
+
+.mainframe .aboutbox .aboutframe .abouttxtbox .aboutbox_lt .aboutbox_lt_txt {
+}
+
+.mainframe
+  .aboutbox
+  .aboutframe
+  .abouttxtbox
+  .aboutbox_lt
+  .aboutbox_lt_txt
+  span {
+  color: rgba(0, 0, 0, 0.8);
+}
+.mainframe .aboutbox .aboutframe .abouttxtbox .aboutbox_lt .aboutbox_lt_txt p {
+  margin: 4px 0 4px 0;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.mainframe
+  .aboutbox
+  .aboutframe
+  .abouttxtbox
+  .aboutbox_lt
+  .aboutbox_lt_txt
+  .aboutbox_lt_txt_img {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background-image: url("https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fpf.kakao.com%2Ffavicon.ico&blockId=d3b6f8d4-01f3-406c-b272-7f6ae56c7c1f&width=32");
+  background-size: cover;
+}
+.mainframe .aboutbox .aboutframe .abouttxtbox .aboutbox_rt {
+  width: 35%;
+  height: 100%;
+  background-image: url("https://oopy.lazyrockets.com/api/v2/notion/image?src=http%3A%2F%2Fk.kakaocdn.net%2Fdn%2F812On%2FbtqjSHnn3I4%2FJVoieCk4b6aDMyvwMSSQV1%2Fimg_m.jpg&blockId=d3b6f8d4-01f3-406c-b272-7f6ae56c7c1f&width=512");
+  background-size: cover;
+  background-position-y: 170px;
+}
+/* 문의하기 end */
