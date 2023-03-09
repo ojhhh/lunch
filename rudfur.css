@@ -1,0 +1,380 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    width: 100%;
+}
+
+.first-bar{
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    display: flex;
+}
+
+
+
+.newperson{
+    width: 50%;
+    padding-right: 1160px;
+}
+
+.icons{
+    display: flex;
+    width: 50%;
+}
+
+.icons div{
+    display: flex;
+    padding-right: 10px;
+    
+}
+
+.img-n02{
+    width: 1000px;
+}
+
+.img-n03{
+    width: 1000px;
+}
+
+.process{
+    width: 100%;
+    border-left: 3px solid black;
+    padding-left: 14px;
+    padding-right: 14px;
+    color: inheritf
+
+}
+
+.unity{
+    width: 100%;
+    max-width: 100%;
+   
+}
+
+
+.leftbar{
+    width: 100%;
+}
+
+/*    아래로 펼쳐지는 칸   */
+.under{
+    display: flex;
+    width: 100%;
+}
+
+
+.kgagiup{
+    text-decoration: underline;
+    color: grey;
+}
+
+.getjob{
+    max-width: 100%;
+    width: 100%;
+}
+
+.studybar{
+    width: 100%;
+}
+
+.studybox1{
+    display: flex;
+    width: 100%;
+    background-color: rgb(241, 241, 239);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.studybox1 div{
+    padding: 20px;
+
+
+}
+
+.student{
+    width: 1%;
+    
+}
+
+.forstudent{
+    width: 99%;
+}
+
+.sugang{
+    display: block;
+    width: 50%;
+    height: auto;
+    cursor: pointer;
+}
+
+.computer{
+    display: block;
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    padding-bottom: 100px;
+}
+
+.computer2{
+    display: block;
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    padding-bottom: 100px;
+}
+
+
+.bookbox{
+   max-width: 100%;
+   width: 100%;
+   padding: 3px 2px;
+
+}
+
+.fast{
+   max-width: 100%;
+   width: 100%;
+   font-weight: 600;
+   font-size: 1.5em;
+}
+
+.infast{
+    display: block;
+
+    margin-block-start: 1em; 
+    margin-block-end: 1em;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.hrdlink{
+    max-width: 100%;
+    width: 100%;
+    padding: 10px;
+}
+
+.youtube-container{
+    border-top: 1px solid black;
+    width: 100%;
+
+}
+
+.youtube1-2{
+    display: flex;
+    color: grey;
+    padding-left: 60px;
+}
+
+.youtube1{
+    padding: 20px;
+}
+
+.newclassbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: auto;
+    width: 100%;
+    height: 13px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+
+.newclass{
+    max-width: 100%;
+    width: 100%;
+    font-weight: 600;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.gaebal-container{
+    width: 100%;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border-top: 1px solid grey;
+
+}
+
+
+.gaebalja{
+    display: flex;
+    width: 100%;
+}
+
+
+.gaebalja div{
+    display: flex;
+    width: 50%;
+}
+
+.comphoto1{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.compo{
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    pointer-events: auto;
+    border-radius: 0px;
+}
+
+.imi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.question-container{
+    max-width: 100%;
+    width: 100%;
+
+}
+
+.question-container{
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    
+}
+
+.question-container div{
+    max-width: 100%;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.clickbox{
+    display: none;
+}
+
+#check-btn{
+    display: none;
+}
+
+#check-btn:checked ~.clickbox{
+    display: block;
+}
+
+.taco-box{
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid gainsboro;
+}
+
+
+.storytaco{
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    pointer-events: auto;
+    border-radius: 0px;
+}
+
+.askbox{
+    width: 100%;
+    max-width: 100%;
+}
+
+
+
+.kakao{
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid black;
+    cursor: pointer;
+    
+    
+}
+
+.kakao-box{
+    width: 80%;
+    padding-left: 40px;
+    
+
+}
+
+
+
+.kgu-box{
+    width: 20%;
+
+}
+
+
+.kgu-img{
+    display: block;
+    object-fit: cover;
+    border-radius: 1px;
+    width: 100%;
+    height: 100%;
+
+}
+
+.purple-box{
+    position: fixed;
+    bottom: 16px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 10%;
+    background-color: rgb(84, 84, 226);
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    right: 25%
+
+}
+
+.kakao-fix{
+    position: fixed;
+    bottom: 16px;
+    margin: 0px auto;
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 50%;
+    height: 10%;
+    border-radius: 100%;
+    right: 25%;
+}
+
+
+.first-box{
+    width: 50%;
+    padding-left: 25%;    
+}
+
+.second-box2{
+    width: 50%;
+    padding-left: 25%; 
+}
+
+.third-box{
+    width: 50%;
+    padding-left: 25%; 
+
+}
+
+
+
+
+
+
